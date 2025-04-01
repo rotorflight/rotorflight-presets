@@ -1,0 +1,16 @@
+#$ TITLE: FlyDragon F722V2/F722V2.2 SBUS -> Servo 5 Remap
+#$ FIRMWARE_VERSION: 4.4
+#$ BOARD_NAME: FLYDRAGONF722_V2
+#$ BOARD_NAME: FLYDRAGONF722_V2_2
+#$ CATEGORY: REMAPPING
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: sbus, s.bus
+#$ AUTHOR: FlyDragonRC
+#$ DESCRIPTION: Remaps the SBUS port to Servo 5
+#$ PRIORITY: 0
+
+resource SERIAL_RX 2 none
+resource SERVO 5 A03
+timer A03 AF3
+mixer input CH10 -1000 1000 1000
+mixer rule 10 set CH10 S5 1000 0
