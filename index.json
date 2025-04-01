@@ -4,18 +4,20 @@
   "settings": {
     "MetapropertyDirective": "#$",
     "PresetCategories": {
+      "SETUP": "SETUP",
+      "FILTERS": "FILTERS",
       "PROFILE": "PROFILE",
       "RATEPROFILE": "RATEPROFILE",
-      "FILTERS": "FILTERS",
       "REMAPPING": "REMAPPING",
       "BNF": "BNF",
       "OTHER": "OTHER"
     },
     "PresetCategoriesPriorities": {
+      "SETUP": 0,
+      "FILTERS": 100,
       "PROFILE": 1000000000000,
       "RATEPROFILE": 10000,
       "REMAPPING": 0,
-      "FILTERS": 100,
       "BNF": 0,
       "OTHER": 0
     },
@@ -129,37 +131,56 @@
   },
   "uniqueValues": {
     "firmware_version": [
-      "4.4"
+      "4.4",
+      "4.5"
     ],
     "category": [
-      "REMAPPING"
+      "OTHER",
+      "PROFILE",
+      "REMAPPING",
+      "SETUP"
     ],
     "author": [
-      "FlyDragonRC"
+      "etocii",
+      "FlyDragonRC",
+      "Oats87",
+      "Rotorflight Team"
     ],
     "keywords": [
       "bec",
+      "Blackbox",
       "ext",
       "f.port",
-      "fbus",
-      "rpm-e",
-      "rpm-s",
+      "filter",
+      "filters",
+      "fport",
+      "M7",
+      "motorized tail",
+      "OMPHOBBY",
+      "orientation alignment",
+      "receiver",
+      "rpm-s rpm-e rpm",
+      "rx",
       "s.bus",
       "sbus",
+      "servo",
+      "servos",
       "voltage"
     ],
     "board_name": [
       "FLYDRAGONF722_V2",
-      "FLYDRAGONF722_V2_2"
+      "FLYDRAGONF722_V2_2",
+      "NEXUS_F7"
     ]
   },
   "presets": [
     {
-      "fullPath": "presets/4.4/remapping/FDRC/f722v2/ext-volt-to-bec.txt",
-      "hash": "dd3ff6286dca2208919240c3a8071a5ce08c80be7a054c3db98f78e4912320b0",
+      "fullPath": "presets/FDRC/f722v2.x/f722v2/remapping/ext-volt-to-bec.txt",
+      "hash": "53f2b18828066779f17041e8022cbccc121c1a3dec2bd49da1ae921e3a70e8fd",
       "title": "FlyDragon F722V2 EXT Voltage -> BEC",
       "firmware_version": [
-        "4.4"
+        "4.4",
+        "4.5"
       ],
       "board_name": [
         "FLYDRAGONF722_V2"
@@ -175,11 +196,12 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/4.4/remapping/FDRC/f722v2/fport-to-servo5.txt",
-      "hash": "12548f2ea3b30e5e77e435f3126d586210c266bda7af1c97118d1d9eea72d1fa",
-      "title": "FlyDragon F722V2/F722V2.2 F.Port -> Servo 5 Remap",
+      "fullPath": "presets/FDRC/f722v2.x/f722v2.2/remapping/rpm-port.txt",
+      "hash": "e0a29944f5db9bd6e84a21ccb6ada4c8563832913d5d88658f64bfa9c4810944",
+      "title": "FlyDragon F722V2/F722V2.2 RPM Port Selection",
       "firmware_version": [
-        "4.4"
+        "4.4",
+        "4.5"
       ],
       "board_name": [
         "FLYDRAGONF722_V2",
@@ -188,56 +210,18 @@
       "category": "REMAPPING",
       "status": "COMMUNITY",
       "keywords": [
-        "fbus",
-        "f.port"
+        "rpm-s rpm-e rpm"
       ],
       "author": "FlyDragonRC",
       "priority": 0
     },
     {
-      "fullPath": "presets/4.4/remapping/FDRC/f722v2/rpm-e.txt",
-      "hash": "c6254c47c37e86d6a174994eba4f0f00e5459e25c55cb520abec3c860be90ae9",
-      "title": "FlyDragon F722V2/F722V2.2 Enable RPM-E",
+      "fullPath": "presets/FDRC/f722v2.x/f722v2.2/remapping/servo5.txt",
+      "hash": "ea9e39fd8174d3e10b50215b7eb4e73cc496051607df92a2f30782db5cbf7db2",
+      "title": "FlyDragon F722V2/F722V2.2 Enable Servo 5",
       "firmware_version": [
-        "4.4"
-      ],
-      "board_name": [
-        "FLYDRAGONF722_V2",
-        "FLYDRAGONF722_V2_2"
-      ],
-      "category": "REMAPPING",
-      "status": "COMMUNITY",
-      "keywords": [
-        "rpm-e"
-      ],
-      "author": "FlyDragonRC",
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/4.4/remapping/FDRC/f722v2/rpm-s.txt",
-      "hash": "0375fd67da70aed1092c3cc4bb171c36d68effc82b9bbfcb1d11aea438daa9de",
-      "title": "FlyDragon F722V2/F722V2.2 Enable RPM-S",
-      "firmware_version": [
-        "4.4"
-      ],
-      "board_name": [
-        "FLYDRAGONF722_V2",
-        "FLYDRAGONF722_V2_2"
-      ],
-      "category": "REMAPPING",
-      "status": "COMMUNITY",
-      "keywords": [
-        "rpm-s"
-      ],
-      "author": "FlyDragonRC",
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/4.4/remapping/FDRC/f722v2/sbus-to-servo5.txt",
-      "hash": "6050f47a404ca5ca8c9f40cefacf18318364d5579edd8a7cf57442b93148b894",
-      "title": "FlyDragon F722V2/F722V2.2 SBUS -> Servo 5 Remap",
-      "firmware_version": [
-        "4.4"
+        "4.4",
+        "4.5"
       ],
       "board_name": [
         "FLYDRAGONF722_V2",
@@ -247,9 +231,148 @@
       "status": "COMMUNITY",
       "keywords": [
         "sbus",
-        "s.bus"
+        "s.bus",
+        "fport",
+        "f.port",
+        "servo"
       ],
       "author": "FlyDragonRC",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/FDRC/f722v2.x/setup/wires-forward.txt",
+      "hash": "295c6898c6cb03e0505e87877abce656bea6503a6339de16030b6f39bbc694d5",
+      "title": "FlyDragon F722V2/F722V2.2 Orientation Adjustment",
+      "firmware_version": [
+        "4.4",
+        "4.5"
+      ],
+      "board_name": [
+        "FLYDRAGONF722_V2",
+        "FLYDRAGONF722_V2_2"
+      ],
+      "category": "SETUP",
+      "status": "OFFICIAL",
+      "keywords": [
+        "orientation alignment"
+      ],
+      "author": "FlyDragonRC",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/RDMS/nexus/motorized-tail.txt",
+      "hash": "ac18a98b3c90f9269be8f6c0e793ee7e185b4b434dc7c3864224acc5a9ae02a9",
+      "title": "Radiomaster Nexus Motorized Tail",
+      "firmware_version": [
+        "4.4",
+        "4.5"
+      ],
+      "board_name": [
+        "NEXUS_F7"
+      ],
+      "category": "REMAPPING",
+      "status": "COMMUNITY",
+      "keywords": [
+        "motorized tail"
+      ],
+      "author": "Rotorflight Team",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/etocii/profiles/2.1/m7-2200.txt",
+      "hash": "208781d867beb7b3512546b8e584160362d56550769ee7735c18ac1e6e7fd955",
+      "title": "OMPHOBBY M7 - etocii's 2200 RPM Profile",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "PROFILE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "OMPHOBBY",
+        "M7"
+      ],
+      "author": "etocii",
+      "force_options_review": true,
+      "priority": 1000000000000
+    },
+    {
+      "fullPath": "presets/etocii/setup/2.2/etocii-filters.txt",
+      "hash": "70a40bcd5993b96af5332308baccb7aae315e8f317f6715494065901c8773fdd",
+      "title": "etocii's Filters",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "SETUP",
+      "status": "COMMUNITY",
+      "keywords": [
+        "filters"
+      ],
+      "author": "etocii",
+      "force_options_review": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/oats87/setup/2.2/blackbox.txt",
+      "hash": "2d9c5507e64e3c4192ff4f285d007841515f3b27c8df1075181a09a017491f98",
+      "title": "Oats87's Blackbox Setup",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "OTHER",
+      "status": "COMMUNITY",
+      "keywords": [
+        "Blackbox"
+      ],
+      "author": "Oats87",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/oats87/setup/2.2/filter-setup.txt",
+      "hash": "484930dbe4d80b8d5f33936deca9534b73fa978b46a3b05eb68fbd22a13f6ff8",
+      "title": "Oats87's Filter Setup",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "OTHER",
+      "status": "COMMUNITY",
+      "keywords": [
+        "filter"
+      ],
+      "author": "Oats87",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/oats87/setup/rx-setup.txt",
+      "hash": "cfac191fcde4cf9bf5c4886f3897c68649930701e0a6890e0f498eafe55a1e21",
+      "title": "Oats87's RX Setup",
+      "firmware_version": [
+        "4.4",
+        "4.5"
+      ],
+      "category": "SETUP",
+      "status": "COMMUNITY",
+      "keywords": [
+        "receiver",
+        "rx"
+      ],
+      "author": "Oats87",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/official/servo-setup.txt",
+      "hash": "72c6120b526e4a14ce9935b475c8763a94905e4f3981a335c2437a3d9ddcdc6f",
+      "title": "Servo Setup",
+      "firmware_version": [
+        "4.4",
+        "4.5"
+      ],
+      "category": "SETUP",
+      "status": "OFFICIAL",
+      "keywords": [
+        "servos"
+      ],
+      "author": "Oats87",
+      "force_options_review": true,
       "priority": 0
     }
   ]
