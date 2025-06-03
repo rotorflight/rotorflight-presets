@@ -17,15 +17,18 @@ const PresetStatusEnum = ["OFFICIAL", "COMMUNITY", "EXPERIMENTAL"];
 const ParserEnum =       ["TEXT", "MARKED"];
 
 const PresetCategories = {
+    SETUP:          "SETUP",
+    FILTERS:        "FILTERS",
     PROFILE:        "PROFILE",
     RATEPROFILE:    "RATEPROFILE",
-    FILTERS:        "FILTERS",
     REMAPPING:      "REMAPPING",
     BNF:            "BNF",
     OTHER:          "OTHER",
 }
 
 const PresetCategoriesPriorities = {
+    SETUP:         0,
+    FILTERS:       0,
     PROFILE:           10**12,
     RATEPROFILE:          10**4,
     REMAPPING:          0,
