@@ -1,11 +1,12 @@
-#$ TITLE: FlyDragon F722V2 EXT Voltage -> BEC
+#$ TITLE: FLYDRAGON V2 Remap EXT Voltage -> BEC
 #$ FIRMWARE_VERSION: 4.4
 #$ FIRMWARE_VERSION: 4.5
 #$ BOARD_NAME: FLYDRAGONF722_V2
+#$ BOARD_NAME: FLYDRAGON_V2
 #$ CATEGORY: REMAPPING
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: ext, voltage, bec
-#$ AUTHOR: FlyDragonRC
+#$ AUTHOR: FDRC
 #$ DESCRIPTION: Enables the EXT Voltage Pin to be used as BEC voltage
 #$ PRIORITY: 0
 
