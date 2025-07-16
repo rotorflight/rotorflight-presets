@@ -1,12 +1,14 @@
-#$ TITLE: FlyDragon F722V2/F722V2.2 Enable Servo 5
+#$ TITLE: FLYDRAGON Servo 5 Configuration
 #$ FIRMWARE_VERSION: 4.4
 #$ FIRMWARE_VERSION: 4.5
 #$ BOARD_NAME: FLYDRAGONF722_V2
 #$ BOARD_NAME: FLYDRAGONF722_V2_2
+#$ BOARD_NAME: FLYDRAGON_V2
+#$ BOARD_NAME: FLYDRAGON_V2_2
 #$ CATEGORY: REMAPPING
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: sbus, s.bus, fport, f.port, servo
-#$ AUTHOR: FlyDragonRC
+#$ AUTHOR: FDRC
 #$ DESCRIPTION: Enables the F.Port or SBUS output to be used as Servo 5.
 #$ PRIORITY: 0
 
