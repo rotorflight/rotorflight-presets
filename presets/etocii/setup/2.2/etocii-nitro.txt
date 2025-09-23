@@ -14,6 +14,15 @@
 #$ DESCRIPTION: -----------
 #$ DESCRIPTION: etocii's Nitro setup works for 50 and 90 size Nitro Helicopters
 
+set gov_p_limit = 70
+set motor_pwm_rate = 330
+set motor_poles = 2,8,8,8
+set gov_mode = MODE1
+set gov_startup_time = 40
+set gov_spoolup_time = 40
+set gov_handover_throttle = 50
+set gov_ff_filter = 20 
+
 set gov_headspeed = 2000
 set gov_gain = 33
 set gov_p_gain = 100
@@ -25,11 +34,4 @@ set gov_cyclic_ff_weight = 40
 set gov_collective_ff_weight = 100
 set gov_max_throttle = 100
 set gov_min_throttle = 25
-set gov_p_limit = 70
-set motor_pwm_rate = 330
-set motor_poles = 2,8,8,8
-set gov_mode = MODE1
-set gov_startup_time = 40
-set gov_spoolup_time = 40
-set gov_handover_throttle = 50
-set gov_ff_filter = 20 
+
