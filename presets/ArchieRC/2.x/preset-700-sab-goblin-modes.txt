@@ -1,0 +1,50 @@
+#$ TITLE: SAB iLGoblin PRO Tune Modes (by SystemX)
+#$ FIRMWARE_VERSION: 4.4
+#$ FIRMWARE_VERSION: 4.5
+#$ CATEGORY: SETUP
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: preset, SystemX, SAB, iLGoblin, Tune, profile, rates
+#$ AUTHOR: SystemX
+#$ FORCE_OPTIONS_REVIEW: false
+
+#$ PARSER: MARKED
+#$ DESCRIPTION: # section of modes from SystemX SAB iLGoblin PRO Tune for RF2.1.1
+#$ DESCRIPTION: -----------
+#$ DESCRIPTION: 
+#$ DESCRIPTION: Description:
+#$ DESCRIPTION: -----------
+#$ DESCRIPTION: This tune features fast rotation rates and high head speeds, making it unsuitable for beginner pilots. As with any preset and tune, please use it at your own risk. Ensure you complete the necessary setup steps and conduct all preflight checks.
+#$ DESCRIPTION: <br><br>
+#$ DESCRIPTION: Components the SystemX Team Recommends for the IL Goblin Pro:
+#$ DESCRIPTION: <br>
+#$ DESCRIPTION: 
+#$ DESCRIPTION: ## Technical Details of the Tune:
+#$ DESCRIPTION: ???
+#$ DESCRIPTION: ** Best when used in conjunction with our recommended SystemX Radio presets **
+#$ DESCRIPTION: 
+
+
+
+# aux
+aux 0 0 0 1940 2020 0 0
+aux 1 53 2 1950 2050 0 0
+aux 2 26 3 1700 1800 0 0
+aux 3 31 3 1950 2050 0 0
+
+# aux 4 0 0 900 900 0 0
+# aux 5 0 0 900 900 0 0
+# aux 6 0 0 900 900 0 0
+# aux 7 0 0 900 900 0 0
+# aux 8 0 0 900 900 0 0
+# aux 9 0 0 900 900 0 0
+# aux 10 0 0 900 900 0 0
+# aux 11 0 0 900 900 0 0
+# aux 12 0 0 900 900 0 0
+# aux 13 0 0 900 900 0 0
+# aux 14 0 0 900 900 0 0
+# aux 15 0 0 900 900 0 0
+# aux 16 0 0 900 900 0 0
+# aux 17 0 0 900 900 0 0
+# aux 18 0 0 900 900 0 0
+# aux 19 0 0 900 900 0 0
+

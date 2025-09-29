@@ -1,0 +1,35 @@
+#$ TITLE: SAB iLGoblin PRO Tune - filters (by SystemX)
+#$ FIRMWARE_VERSION: 4.4
+#$ CATEGORY: SETUP
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: preset, SystemX, SAB, iLGoblin, Tune, filters
+#$ AUTHOR: SystemX
+#$ FORCE_OPTIONS_REVIEW: false
+
+#$ PARSER: MARKED
+#$ DESCRIPTION: # section of filters from SystemX SAB iLGoblin PRO Tune for RF2.1.1
+#$ DESCRIPTION: -----------
+#$ DESCRIPTION: 
+#$ DESCRIPTION: Description:
+#$ DESCRIPTION: -----------
+#$ DESCRIPTION: This tune features fast rotation rates and high head speeds, making it unsuitable for beginner pilots. As with any preset and tune, please use it at your own risk. Ensure you complete the necessary setup steps and conduct all preflight checks.
+#$ DESCRIPTION: <br><br>
+#$ DESCRIPTION: Components the SystemX Team Recommends for the IL Goblin Pro:
+#$ DESCRIPTION: <br>
+#$ DESCRIPTION: ## Technical Details of the Tune:
+#$ DESCRIPTION: ???
+#$ DESCRIPTION: ** Best when used in conjunction with our recommended SystemX Radio presets **
+#$ DESCRIPTION: 
+
+
+# master
+set gyro_lpf1_static_hz = 150
+set gyro_lpf2_static_hz = 0
+set dyn_notch_count = 2
+set dyn_notch_q = 50
+set dyn_notch_min_hz = 50
+set gyro_rpm_filter_bank_rpm_source = 11,12,13,14,21,22,0,0,0,0,0,0,0,0,0,0
+set gyro_rpm_filter_bank_rpm_ratio = 10000,10000,10000,10000,10000,10000,0,0,0,0,0,0,0,0,0,0
+set gyro_rpm_filter_bank_rpm_limit = 1000,1000,1000,1000,2000,2000,0,0,0,0,0,0,0,0,0,0
+set gyro_rpm_filter_bank_notch_q = 80,40,100,70,80,50,0,0,0,0,0,0,0,0,0,0
+

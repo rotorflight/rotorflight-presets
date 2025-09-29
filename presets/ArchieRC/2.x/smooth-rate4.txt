@@ -1,0 +1,25 @@
+#$ TITLE: Smooth (rate profile 4) (by ArchieRC)
+#$ FIRMWARE_VERSION: 4.4
+#$ FIRMWARE_VERSION: 4.5
+#$ CATEGORY: SETUP
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: Inputs
+#$ AUTHOR: ArchieRC
+#$ FORCE_OPTIONS_REVIEW: false
+
+#$ PARSER: MARKED
+#$ DESCRIPTION: ArchieRC RC Input Smoothing
+#$ DESCRIPTION: -----------
+#$ DESCRIPTION: 
+#$ DESCRIPTION: Description:
+#$ DESCRIPTION: -----------
+#$ DESCRIPTION: Archie's settings to smooth the inputs up.
+
+set rc_smoothness = 80
+
+# rateprofile 3
+rateprofile 3
+set roll_response = 10
+set pitch_response = 10
+set yaw_response = 4
+
