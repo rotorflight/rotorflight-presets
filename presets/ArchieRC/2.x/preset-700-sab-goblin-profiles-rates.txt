@@ -1,0 +1,260 @@
+#$ TITLE: SAB iLGoblin PRO Tune - profile & rates 1-4 (by SystemX)
+#$ FIRMWARE_VERSION: 4.4
+#$ FIRMWARE_VERSION: 4.5
+#$ CATEGORY: SETUP
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: preset, SystemX, SAB, iLGoblin, Tune, profile, rates
+#$ AUTHOR: SystemX
+#$ FORCE_OPTIONS_REVIEW: false
+
+#$ PARSER: MARKED
+#$ DESCRIPTION: # Section of Profiles & Rates from the SystemX SAB iLGoblin PRO Tune for RF2.1.1
+#$ DESCRIPTION: -----------
+#$ DESCRIPTION: 
+#$ DESCRIPTION: Description:
+#$ DESCRIPTION: -----------
+#$ DESCRIPTION: This tune features fast rotation rates and high head speeds, making it unsuitable for beginner pilots. As with any preset and tune, please use it at your own risk. Ensure you complete the necessary setup steps and conduct all preflight checks.
+#$ DESCRIPTION: <br><br>
+#$ DESCRIPTION: Components the SystemX Team Recommends for the IL Goblin Pro:
+#$ DESCRIPTION: <br>
+#$ DESCRIPTION: ### Motor:
+#$ DESCRIPTION:   - XNova Lightning 4530 525KV
+#$ DESCRIPTION:   - XNova XTareq 700 Class
+#$ DESCRIPTION: 
+#$ DESCRIPTION: ### ESC:
+#$ DESCRIPTION: * Hobbywing Platinum 260amp
+#$ DESCRIPTION: * XDFly Pro 300amp
+#$ DESCRIPTION: 
+#$ DESCRIPTION: ### Servos:
+#$ DESCRIPTION: * Theta Kenny Ko 12V
+#$ DESCRIPTION: * Theta Kenny Ko
+#$ DESCRIPTION: * Theta C1 & T1
+#$ DESCRIPTION: * Torq HLX Combo
+#$ DESCRIPTION: * Torq SHV Combo
+#$ DESCRIPTION: * Torq BLS2208/BLS0704T
+#$ DESCRIPTION: 
+#$ DESCRIPTION: ### FBL:
+#$ DESCRIPTION: * Radiomaster Nexus and RP3H
+#$ DESCRIPTION: 
+#$ DESCRIPTION: ### Battery:
+#$ DESCRIPTION:   * Pulse 12S 5300mah Ptech
+#$ DESCRIPTION:   * Equivalent 12S 5000-5500mah
+#$ DESCRIPTION: 
+#$ DESCRIPTION: ### Main Blades:
+#$ DESCRIPTION:    * Included SAB 722 Blades
+#$ DESCRIPTION:    * Rotortech Ultimate 715
+#$ DESCRIPTION:    * Rotortech Ultimate 700
+#$ DESCRIPTION: 
+#$ DESCRIPTION: ## Technical Details of the Tune:
+#$ DESCRIPTION: 
+#$ DESCRIPTION: ### Profile 1
+#$ DESCRIPTION: 
+#$ DESCRIPTION: * Headspeed: 1850 RPM
+#$ DESCRIPTION: * Cyclic Rotation Rate: 280°/s (15 Expo)
+#$ DESCRIPTION: * Yaw Rotation Rate: 580°/s (50 Expo)
+#$ DESCRIPTION: * Collective Pitch: 13°
+#$ DESCRIPTION: 
+#$ DESCRIPTION: Profile 2
+#$ DESCRIPTION: 
+#$ DESCRIPTION: * Headspeed: 2000 RPM
+#$ DESCRIPTION: * Cyclic Rotation Rate: 280°/s (15 Expo)
+#$ DESCRIPTION: * Yaw Rotation Rate: 580°/s (50 Expo)
+#$ DESCRIPTION: * Collective Pitch: 13°
+#$ DESCRIPTION: 
+#$ DESCRIPTION: Profile 3
+#$ DESCRIPTION: 
+#$ DESCRIPTION: * Headspeed: 2150 RPM
+#$ DESCRIPTION: * Cyclic Rotation Rate: 280°/s (15 Expo)
+#$ DESCRIPTION: * Yaw Rotation Rate: 580°/s (50 Expo)
+#$ DESCRIPTION: * Collective Pitch: 13°
+#$ DESCRIPTION: 
+#$ DESCRIPTION: Profile 4: Auto Rotation
+#$ DESCRIPTION: 
+#$ DESCRIPTION: * Headspeed: 800 RPM (adjust to your preference)
+#$ DESCRIPTION: * Cyclic Rotation Rate: 280°/s (15 Expo)
+#$ DESCRIPTION: * Yaw Rotation Rate: 580°/s (50 Expo)
+#$ DESCRIPTION: * Collective Pitch: 13°
+#$ DESCRIPTION: <br><br>
+#$ DESCRIPTION: ** Best when used in conjunction with our recommended SystemX Radio presets **
+#$ DESCRIPTION: 
+
+
+
+profile 0
+
+# profile 0
+set pitch_p_gain = 95
+set pitch_i_gain = 110
+set pitch_d_gain = 45
+set pitch_f_gain = 105
+set pitch_b_gain = 35
+set roll_i_gain = 110
+set roll_d_gain = 10
+set roll_f_gain = 105
+set roll_b_gain = 35
+set yaw_p_gain = 110
+set yaw_i_gain = 210
+set yaw_d_gain = 25
+set yaw_f_gain = 10
+set cyclic_cross_coupling_gain = 10
+set gov_headspeed = 1850
+set gov_gain = 50
+set gov_p_gain = 20
+set gov_i_gain = 60
+set gov_d_gain = 10
+set gov_f_gain = 14
+set gov_yaw_ff_weight = 5
+
+profile 1
+
+# profile 1
+set pitch_p_gain = 95
+set pitch_i_gain = 105
+set pitch_d_gain = 45
+set pitch_f_gain = 105
+set pitch_b_gain = 35
+set roll_p_gain = 45
+set roll_i_gain = 105
+set roll_d_gain = 10
+set roll_f_gain = 105
+set roll_b_gain = 35
+set yaw_p_gain = 95
+set yaw_i_gain = 200
+set yaw_d_gain = 25
+set yaw_f_gain = 10
+set cyclic_cross_coupling_gain = 10
+set gov_headspeed = 2000
+set gov_gain = 50
+set gov_p_gain = 18
+set gov_i_gain = 60
+set gov_d_gain = 8
+set gov_f_gain = 14
+set gov_yaw_ff_weight = 5
+set gov_cyclic_ff_weight = 35
+
+profile 2
+
+# profile 2
+set pitch_p_gain = 90
+set pitch_i_gain = 105
+set pitch_d_gain = 45
+set pitch_f_gain = 105
+set pitch_b_gain = 35
+set roll_p_gain = 40
+set roll_i_gain = 105
+set roll_d_gain = 10
+set roll_f_gain = 105
+set roll_b_gain = 35
+set yaw_p_gain = 85
+set yaw_i_gain = 190
+set yaw_d_gain = 25
+set yaw_f_gain = 10
+set cyclic_cross_coupling_gain = 10
+set gov_headspeed = 2150
+set gov_gain = 50
+set gov_p_gain = 18
+set gov_i_gain = 60
+set gov_d_gain = 8
+set gov_f_gain = 14
+set gov_yaw_ff_weight = 5
+set gov_cyclic_ff_weight = 35
+
+profile 3
+
+# profile 3
+set pitch_p_gain = 90
+set pitch_i_gain = 105
+set pitch_d_gain = 45
+set pitch_f_gain = 105
+set pitch_b_gain = 35
+set pitch_o_gain = 35
+set roll_p_gain = 45
+set roll_i_gain = 105
+set roll_d_gain = 10
+set roll_f_gain = 105
+set roll_b_gain = 35
+set roll_o_gain = 35
+set yaw_p_gain = 100
+set yaw_i_gain = 180
+set yaw_d_gain = 25
+set yaw_f_gain = 10
+set cyclic_cross_coupling_gain = 20
+set gov_headspeed = 800
+set gov_p_gain = 10
+set gov_i_gain = 60
+set gov_d_gain = 10
+set gov_f_gain = 20
+set gov_yaw_ff_weight = 5
+set gov_cyclic_ff_weight = 30
+set gov_max_throttle = 45
+
+profile 4
+
+profile 5
+
+# restore original profile selection
+profile 0
+
+rateprofile 0
+
+# rateprofile 0
+set rates_type = RACEFLIGHT
+set roll_rc_rate = 28
+set pitch_rc_rate = 28
+set yaw_rc_rate = 58
+set collective_rc_rate = 52
+set roll_expo = 15
+set pitch_expo = 15
+set yaw_expo = 50
+set roll_srate = 0
+set pitch_srate = 0
+set yaw_srate = 0
+set collective_srate = 0
+set roll_response = 10
+set pitch_response = 10
+set yaw_response = 4
+
+rateprofile 1
+
+# rateprofile 1
+set rates_type = RACEFLIGHT
+set roll_rc_rate = 28
+set pitch_rc_rate = 28
+set yaw_rc_rate = 58
+set collective_rc_rate = 52
+set roll_expo = 15
+set pitch_expo = 15
+set yaw_expo = 50
+set roll_srate = 0
+set pitch_srate = 0
+set yaw_srate = 0
+set collective_srate = 0
+set roll_response = 10
+set pitch_response = 10
+set yaw_response = 4
+
+rateprofile 2
+
+# rateprofile 2
+set rates_type = RACEFLIGHT
+set roll_rc_rate = 28
+set pitch_rc_rate = 28
+set yaw_rc_rate = 58
+set collective_rc_rate = 52
+set roll_expo = 15
+set pitch_expo = 15
+set yaw_expo = 50
+set roll_srate = 0
+set pitch_srate = 0
+set yaw_srate = 0
+set collective_srate = 0
+set roll_response = 10
+set pitch_response = 10
+set yaw_response = 4
+
+rateprofile 3
+
+rateprofile 4
+
+rateprofile 5
+

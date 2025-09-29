@@ -1,0 +1,61 @@
+#$ TITLE: SAB iLGoblin PRO Tune Adjustments (by SystemX)
+#$ FIRMWARE_VERSION: 4.4
+#$ FIRMWARE_VERSION: 4.5
+#$ CATEGORY: SETUP
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: preset, SystemX, SAB, iLGoblin, Tune, profile, rates
+#$ AUTHOR: SystemX
+#$ FORCE_OPTIONS_REVIEW: false
+
+#$ PARSER: MARKED
+#$ DESCRIPTION: # section of adjustments from SystemX SAB iLGoblin PRO Tune for RF2.1.1
+#$ DESCRIPTION: -----------
+#$ DESCRIPTION: 
+#$ DESCRIPTION: Description:
+#$ DESCRIPTION: -----------
+#$ DESCRIPTION: This tune features fast rotation rates and high head speeds, making it unsuitable for beginner pilots. As with any preset and tune, please use it at your own risk. Ensure you complete the necessary setup steps and conduct all preflight checks.
+#$ DESCRIPTION: <br><br>
+#$ DESCRIPTION: Components the SystemX Team Recommends for the IL Goblin Pro:
+#$ DESCRIPTION: <br>
+#$ DESCRIPTION: 
+#$ DESCRIPTION: ## Technical Details of the Tune:
+#$ DESCRIPTION: ???
+#$ DESCRIPTION: ** Best when used in conjunction with our recommended SystemX Radio presets **
+#$ DESCRIPTION: 
+
+
+# adjfunc
+adjfunc 0 2 255 1500 1500 1 1000 2000 1500 1500 0 1 4
+adjfunc 1 1 255 1500 1500 1 990 1775 1500 1500 0 1 3
+adjfunc 2 0 0 1500 1500 0 1500 1500 1500 1500 0 0 100
+adjfunc 3 14 5 1165 1215 6 1025 1045 1950 1970 5 20 120
+adjfunc 4 18 5 1165 1215 6 1100 1120 1880 1900 5 20 120
+adjfunc 5 22 5 1165 1215 6 1175 1195 1800 1820 5 20 120
+adjfunc 6 15 5 1370 1420 6 1025 1045 1950 1970 5 80 140
+adjfunc 7 19 5 1370 1420 6 1100 1120 1880 1900 5 80 140
+adjfunc 8 23 5 1370 1420 6 1175 1195 1800 1820 5 80 250
+adjfunc 9 16 5 1575 1625 6 1025 1045 1950 1970 5 10 80
+adjfunc 10 20 5 1575 1625 6 1100 1120 1880 1900 5 5 50
+adjfunc 11 24 5 1575 1625 6 1175 1195 1800 1820 5 5 50
+adjfunc 12 17 5 1785 1835 6 1025 1045 1950 1970 5 80 120
+adjfunc 13 21 5 1785 1835 6 1100 1120 1880 1900 5 80 120
+adjfunc 14 25 5 1785 1835 6 1175 1195 1800 1820 5 0 40
+adjfunc 15 56 5 1975 2025 6 1025 1045 1950 1970 5 0 35
+adjfunc 16 57 5 1975 2025 6 1100 1120 1880 1900 5 0 35
+adjfunc 17 58 5 1975 2025 6 1175 1195 1800 1820 5 0 20
+adjfunc 18 29 5 1785 1835 6 1255 1275 1720 1740 5 0 60
+adjfunc 19 0 0 1165 1215 0 1900 1920 1800 1820 2 0 100
+
+# adjfunc 20 0 0 1500 1500 0 1500 1500 1500 1500 0 0 100
+# adjfunc 21 0 0 1500 1500 0 1500 1500 1500 1500 0 0 100
+# adjfunc 22 0 0 1500 1500 0 1500 1500 1500 1500 0 0 100
+# adjfunc 23 0 0 1500 1500 0 1500 1500 1500 1500 0 0 100
+# adjfunc 24 0 0 1500 1500 0 1500 1500 1500 1500 0 0 100
+# adjfunc 25 0 0 1500 1500 0 1500 1500 1500 1500 0 0 100
+# adjfunc 26 0 0 1500 1500 0 1500 1500 1500 1500 0 0 100
+# adjfunc 27 0 0 1500 1500 0 1500 1500 1500 1500 0 0 100
+# adjfunc 28 0 0 1500 1500 0 1500 1500 1500 1500 0 0 100
+# adjfunc 29 0 0 1500 1500 0 1500 1500 1500 1500 0 0 100
+# adjfunc 30 0 0 1500 1500 0 1500 1500 1500 1500 0 0 100
+# adjfunc 31 0 0 1500 1500 0 1500 1500 1500 1500 0 0 100
+

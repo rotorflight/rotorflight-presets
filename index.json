@@ -139,8 +139,10 @@
       "SETUP"
     ],
     "author": [
+      "ArchieRC",
       "etocii",
       "FDRC",
+      "SystemX",
       "The Rotorflight Team"
     ],
     "keywords": [
@@ -149,11 +151,19 @@
       "f.port",
       "filters",
       "fport",
+      "iLGoblin",
+      "Inputs",
       "motorized tail",
+      "preset",
+      "profile",
+      "rates",
       "rpm-s rpm-e rpm",
       "s.bus",
+      "SAB",
       "sbus",
       "servo",
+      "SystemX",
+      "Tune",
       "voltage"
     ],
     "board_name": [
@@ -166,8 +176,204 @@
   },
   "presets": [
     {
+      "fullPath": "presets/ArchieRC/2.x/preset-700-sab-goblin-adjustments-filters.txt",
+      "hash": "d958fd42a4428240df95c13fecafe1f9743cfe83a0f385e3ddb1c884886ab60e",
+      "title": "SAB iLGoblin PRO Tune - filters (by SystemX)",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "SETUP",
+      "status": "COMMUNITY",
+      "keywords": [
+        "preset",
+        "SystemX",
+        "SAB",
+        "iLGoblin",
+        "Tune",
+        "filters"
+      ],
+      "author": "SystemX",
+      "force_options_review": false,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/ArchieRC/2.x/preset-700-sab-goblin-adjustments.txt",
+      "hash": "dcebfd8a9cfa98f067f50108f5d3eb699d115a181c492c57537dfb912952aecb",
+      "title": "SAB iLGoblin PRO Tune Adjustments (by SystemX)",
+      "firmware_version": [
+        "4.4",
+        "4.5"
+      ],
+      "category": "SETUP",
+      "status": "COMMUNITY",
+      "keywords": [
+        "preset",
+        "SystemX",
+        "SAB",
+        "iLGoblin",
+        "Tune",
+        "profile",
+        "rates"
+      ],
+      "author": "SystemX",
+      "force_options_review": false,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/ArchieRC/2.x/preset-700-sab-goblin-modes.txt",
+      "hash": "d146d7d14bf8bb9416b4f74e31a604d074a49efa8032cb61a00b558ac470ea35",
+      "title": "SAB iLGoblin PRO Tune Modes (by SystemX)",
+      "firmware_version": [
+        "4.4",
+        "4.5"
+      ],
+      "category": "SETUP",
+      "status": "COMMUNITY",
+      "keywords": [
+        "preset",
+        "SystemX",
+        "SAB",
+        "iLGoblin",
+        "Tune",
+        "profile",
+        "rates"
+      ],
+      "author": "SystemX",
+      "force_options_review": false,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/ArchieRC/2.x/preset-700-sab-goblin-profiles-rates.txt",
+      "hash": "fe344c4e20dbc6c854b554967eada15df480d5ae9b1bcd45db48ab06e6f0546e",
+      "title": "SAB iLGoblin PRO Tune - profile & rates 1-4 (by SystemX)",
+      "firmware_version": [
+        "4.4",
+        "4.5"
+      ],
+      "category": "SETUP",
+      "status": "COMMUNITY",
+      "keywords": [
+        "preset",
+        "SystemX",
+        "SAB",
+        "iLGoblin",
+        "Tune",
+        "profile",
+        "rates"
+      ],
+      "author": "SystemX",
+      "force_options_review": false,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/ArchieRC/2.x/preset-700-sab-goblin.txt",
+      "hash": "e75b4f652b556e5acc70e0378226aaaa974330e0d41eb00a8c59a16cea685fec",
+      "title": "SAB iLGoblin PRO Full(!!) Tune (by SystemX)",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "SETUP",
+      "status": "COMMUNITY",
+      "keywords": [
+        "preset",
+        "SystemX",
+        "SAB",
+        "iLGoblin",
+        "Tune",
+        "profile",
+        "rates"
+      ],
+      "author": "SystemX",
+      "force_options_review": false,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/ArchieRC/2.x/smooth-rate-1-2-3.txt",
+      "hash": "b2ab7029a50b659c82dd3342939a41f429efe6e8ac7dd4e31d831cb9ca09d25a",
+      "title": "Smooth (rate profile 1/2/3) (by ArchieRC)",
+      "firmware_version": [
+        "4.4",
+        "4.5"
+      ],
+      "category": "SETUP",
+      "status": "COMMUNITY",
+      "keywords": [
+        "Inputs"
+      ],
+      "author": "ArchieRC",
+      "force_options_review": false,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/ArchieRC/2.x/smooth-rate4.txt",
+      "hash": "aaad67b6ea41a9e3f0c18325f682abdf04a00465f22511117c1570bdc81e7128",
+      "title": "Smooth (rate profile 4) (by ArchieRC)",
+      "firmware_version": [
+        "4.4",
+        "4.5"
+      ],
+      "category": "SETUP",
+      "status": "COMMUNITY",
+      "keywords": [
+        "Inputs"
+      ],
+      "author": "ArchieRC",
+      "force_options_review": false,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/ArchieRC/2.x/smooth-rate5.txt",
+      "hash": "9a7aaf584a969be349b406e948a9a009e9344fba07094e37a2e7692459268f08",
+      "title": "Smooth (rate profile 5) (by ArchieRC)",
+      "firmware_version": [
+        "4.4",
+        "4.5"
+      ],
+      "category": "SETUP",
+      "status": "COMMUNITY",
+      "keywords": [
+        "Inputs"
+      ],
+      "author": "ArchieRC",
+      "force_options_review": false,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/ArchieRC/2.x/smooth-rate6.txt",
+      "hash": "4859112bec12bd3b77a857ae60de829c76562e6f9d32d0e02448c98cb24aa097",
+      "title": "Smooth (rate profile 6) (by ArchieRC)",
+      "firmware_version": [
+        "4.4",
+        "4.5"
+      ],
+      "category": "SETUP",
+      "status": "COMMUNITY",
+      "keywords": [
+        "Inputs"
+      ],
+      "author": "ArchieRC",
+      "force_options_review": false,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/etocii/setup/2.2/etocii-filters.txt",
+      "hash": "84acafde3f50dea78352a4c0403f566a60ae7d6efba7f9ce4380c1d6f473a096",
+      "title": "etocii's Filters",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "SETUP",
+      "status": "COMMUNITY",
+      "keywords": [
+        "filters"
+      ],
+      "author": "etocii",
+      "force_options_review": true,
+      "priority": 0
+    },
+    {
       "fullPath": "presets/FDRC/f722v2.x/f722v2/remapping/ext-volt-to-bec.txt",
-      "hash": "dca07216bfee6a025790844b6f4d1d16589c0c5fbe266fa66115a70e5971e1f1",
+      "hash": "ea49d5abfc0cfcac199fb24907265eea02e2ccb758d83f47571f1c624f12f7ef",
       "title": "FLYDRAGON V2 Remap EXT Voltage -> BEC",
       "firmware_version": [
         "4.4",
@@ -189,7 +395,7 @@
     },
     {
       "fullPath": "presets/FDRC/f722v2.x/f722v2.2/remapping/rpm-port.txt",
-      "hash": "f8cc04e26113c20573722a0f1d40e29b6d3f5465d6d2bf0fcc3e071edc80bdec",
+      "hash": "4f2dfc7c3cd3fbe69d7a740e7802bdff6557e6a5fce94a50fb730454561cf3a0",
       "title": "FLYDRAGON RPM Port Selection",
       "firmware_version": [
         "4.4",
@@ -211,7 +417,7 @@
     },
     {
       "fullPath": "presets/FDRC/f722v2.x/f722v2.2/remapping/servo5.txt",
-      "hash": "911e5420f7bb6c6b287c1c4139e086fb7c384ce2b8c1cd9c7a397aca7e49b0ae",
+      "hash": "6fdf8cd8bbfccb2c3f50a3ba886e8d69a4162596ef0d7a1b0f11541237d23703",
       "title": "FLYDRAGON Servo 5 Configuration",
       "firmware_version": [
         "4.4",
@@ -237,7 +443,7 @@
     },
     {
       "fullPath": "presets/RDMS/nexus/motorized-tail.txt",
-      "hash": "c83125b70ac08ffab1ce0f4a49527e09092f8a0d7286811dc4b48cc6dffa0bf5",
+      "hash": "d80ca0def7873055744f709fe90e276fd44d74223bad5667b2699aeb10020988",
       "title": "RadioMaster Nexus Motorized Tail",
       "firmware_version": [
         "4.4",
@@ -252,22 +458,6 @@
         "motorized tail"
       ],
       "author": "The Rotorflight Team",
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/etocii/setup/2.2/etocii-filters.txt",
-      "hash": "70a40bcd5993b96af5332308baccb7aae315e8f317f6715494065901c8773fdd",
-      "title": "etocii's Filters",
-      "firmware_version": [
-        "4.5"
-      ],
-      "category": "SETUP",
-      "status": "COMMUNITY",
-      "keywords": [
-        "filters"
-      ],
-      "author": "etocii",
-      "force_options_review": true,
       "priority": 0
     }
   ]
