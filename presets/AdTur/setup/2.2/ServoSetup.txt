@@ -6,33 +6,33 @@
 #$ KEYWORDS: Servos
 #$ AUTHOR: AdTur (Adam Turner)
 #$ FORCE_OPTIONS_REVIEW: true
-#$ WARNING: Using the incorrect center pulse width can dammage your servos
+#$ WARNING: Using the incorrect center pulse width can dammage your servos. AFTER COMPLETE CHECK YOUR SERVO DIRECTIONS
 
 #$ PARSER: MARKED
-#$ DESCRIPTION: Servo Setup
+#$ DESCRIPTION: Cyclic Servo Setup
 #$ DESCRIPTION: 
-#$ DESCRIPTION: Description:
-#$ DESCRIPTION: Adjusts the 3 cyclic servos (1,2,3) to the center pulse frequency selected
+#$ DESCRIPTION: Description: Most programmable servos let you adjust their center pulse. This preset makes it easy to set the center pulse, along with the matching Min, Max, and Scale values, for the three cyclic servos (1, 2, and 3) based on the selected center pulse.
+#$ DESCRIPTION: DUE TO A LIMITATION WITH CLI THIS MY ALSO REVERSE YOUR SERVOS, PLEASE CHECK DIRECTIONS
 
 #$ OPTION_GROUP BEGIN: (EXCLUSIVE) Exclusive Option Group
     #$ OPTION BEGIN (CHECKED): 1500us
-    servo 1 1500 -500 500 500 500 333
-    servo 2 1500 -500 500 500 500 333
-    servo 3 1500 -500 500 500 500 333
+    servo 1 1500 -500 500 500 500 333 0 2
+    servo 2 1500 -500 500 500 500 333 0 3
+    servo 3 1500 -500 500 500 500 333 0 2
     #$ OPTION END
     #$ OPTION BEGIN (UNCHECKED): 1520us
-    servo 1 1520 -500 500 500 500 333
-    servo 2 1520 -500 500 500 500 333
-    servo 3 1520 -500 500 500 500 333
+    servo 1 1520 -500 500 500 500 333 0 2
+    servo 2 1520 -500 500 500 500 333 0 3
+    servo 3 1520 -500 500 500 500 333 0 2
     #$ OPTION END
     #$ OPTION BEGIN (UNCHECKED): 750us
-    servo 1 750 -250 250 250 250 333
-    servo 2 750 -250 250 250 250 333
-    servo 3 750 -250 250 250 250 333
+    servo 1 750 -250 250 250 250 333 0 2
+    servo 2 750 -250 250 250 250 333 0 3
+    servo 3 750 -250 250 250 250 333 0 2
     #$ OPTION END
     #$ OPTION BEGIN (UNCHECKED): 760us
-    servo 1 1520 -500 500 500 500 333
-    servo 2 1520 -500 500 500 500 333
-    servo 3 1520 -500 500 500 500 333
+    servo 1 760 -250 250 250 250 333 0 2
+    servo 2 760 -250 250 250 250 333 0 3
+    servo 3 760 -250 250 250 250 333 0 2
     #$ OPTION END
 #$ OPTION_GROUP END
