@@ -1,4 +1,4 @@
-#$ TITLE: Servo Setup
+#$ TITLE: Cyclic Servo Setup
 #$ FIRMWARE_VERSION: 4.5
 #$ FIRMWARE_VERSION: 4.4
 #$ CATEGORY: SETUP
@@ -12,7 +12,7 @@
 #$ DESCRIPTION: Servo Setup
 #$ DESCRIPTION: 
 #$ DESCRIPTION: Description:
-#$ DESCRIPTION: Adjusts the 3 cyclic servos to the center pulse frequency selected
+#$ DESCRIPTION: Adjusts the 3 cyclic servos (1,2,3) to the center pulse frequency selected
 
 #$ OPTION_GROUP BEGIN: (EXCLUSIVE) Exclusive Option Group
     #$ OPTION BEGIN (CHECKED): 1500us
@@ -25,6 +25,14 @@
     servo 2 1520 -500 500 500 500 333
     servo 3 1520 -500 500 500 500 333
     #$ OPTION END
+    #$ OPTION BEGIN (UNCHECKED): 750us
+    servo 1 750 -250 250 250 250 333
+    servo 2 750 -250 250 250 250 333
+    servo 3 750 -250 250 250 250 333
+    #$ OPTION END
+    #$ OPTION BEGIN (UNCHECKED): 760us
+    servo 1 1520 -500 500 500 500 333
+    servo 2 1520 -500 500 500 500 333
+    servo 3 1520 -500 500 500 500 333
+    #$ OPTION END
 #$ OPTION_GROUP END
-
-
