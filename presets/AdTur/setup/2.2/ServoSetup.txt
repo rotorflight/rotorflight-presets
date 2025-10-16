@@ -14,15 +14,15 @@
 #$ DESCRIPTION: Pick the correct PWM center pulse for your servos from the list
 
 #$ OPTION_GROUP BEGIN: (EXCLUSIVE) Exclusive Option Group
-    #$ OPTION BEGIN (CHECKED): 1500us (Standard)
-    servo 1 1500 -500 500 500 500 333 0 2
-    servo 2 1500 -500 500 500 500 333 0 3
-    servo 3 1500 -500 500 500 500 333 0 2
+    #$ OPTION BEGIN (CHECKED): 1500us (Std)
+    servo 1 1500 -500 500 500 500 250 0 2
+    servo 2 1500 -500 500 500 500 250 0 3
+    servo 3 1500 -500 500 500 500 250 0 2
     #$ OPTION END
-    #$ OPTION BEGIN (UNCHECKED): 1520us (Standard)
-    servo 1 1520 -500 500 500 500 333 0 2
-    servo 2 1520 -500 500 500 500 333 0 3
-    servo 3 1520 -500 500 500 500 333 0 2
+    #$ OPTION BEGIN (UNCHECKED): 1520us (Std)
+    servo 1 1520 -500 500 500 500 250 0 2
+    servo 2 1520 -500 500 500 500 250 0 3
+    servo 3 1520 -500 500 500 500 250 0 2
     #$ OPTION END
     #$ OPTION BEGIN (UNCHECKED): 750us (Narrow Band)
     servo 1 750 -250 250 250 250 333 0 2
@@ -34,9 +34,9 @@
     servo 2 760 -250 250 250 250 333 0 3
     servo 3 760 -250 250 250 250 333 0 2
     #$ OPTION END
-    #$ OPTION BEGIN (UNCHECKED): 300us (SANWA SSR)
-    servo 1 300 -250 250 190 190 500 0 2
-    servo 2 300 -250 250 190 190 500 0 3
-    servo 3 300 -250 250 190 190 500 0 2
+    #$ OPTION BEGIN (UNCHECKED): 300us (SSR)
+    servo 1 300 -240 240 190 190 500 0 2
+    servo 2 300 -240 240 190 190 500 0 3
+    servo 3 300 -240 240 190 190 500 0 2
     #$ OPTION END
 #$ OPTION_GROUP END
