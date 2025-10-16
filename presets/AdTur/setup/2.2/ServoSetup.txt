@@ -7,11 +7,9 @@
 #$ AUTHOR: AdTur (Adam Turner)
 #$ FORCE_OPTIONS_REVIEW: true
 #$ WARNING: Using the incorrect center pulse width can dammage your servos. AFTER COMPLETE CHECK YOUR SERVO DIRECTIONS
-
 #$ PARSER: MARKED
-#$ DESCRIPTION: Cyclic Servo Setup
-#$ DESCRIPTION: 
-#$ DESCRIPTION: Description: Most programmable servos let you adjust their center pulse. This preset makes it easy to set the RF center pulse, along with the matching Min, Max, and Scale values, for the three cyclic servos (1, 2, and 3)
+
+#$ DESCRIPTION: Most programmable servos let you adjust their center pulse from Standard (1520us) to Narrow Band (760us). This preset makes it easy to set the RF center pulse, along with the matching Min, Max, and Scale values, for the three cyclic servos (1, 2, and 3)
 #$ DESCRIPTION:
 #$ DESCRIPTION: DUE TO A LIMITATION WITH CLI THIS MY ALSO REVERSE YOUR SERVOS, PLEASE CHECK DIRECTIONS
 #$ DESCRIPTION:
