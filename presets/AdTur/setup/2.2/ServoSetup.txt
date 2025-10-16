@@ -1,0 +1,30 @@
+#$ TITLE: Servo Setup
+#$ FIRMWARE_VERSION: 4.5
+#$ FIRMWARE_VERSION: 4.4
+#$ CATEGORY: SETUP
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: Servos
+#$ AUTHOR: AdTur (Adam Turner)
+#$ FORCE_OPTIONS_REVIEW: true
+#$ WARNING: Using the incorrect center pulse width can dammage your servos
+
+#$ PARSER: MARKED
+#$ DESCRIPTION: Servo Setup
+#$ DESCRIPTION: 
+#$ DESCRIPTION: Description:
+#$ DESCRIPTION: Adjusts the 3 cyclic servos to the center pulse frequency selected
+
+#$ OPTION_GROUP BEGIN: (EXCLUSIVE) Exclusive Option Group
+    #$ OPTION BEGIN (CHECKED): 1500us
+    servo 1 1500 -500 500 500 500 333
+    servo 2 1500 -500 500 500 500 333
+    servo 3 1500 -500 500 500 500 333
+    #$ OPTION END
+    #$ OPTION BEGIN (UNCHECKED): 1520us
+    servo 1 1520 -500 500 500 500 333
+    servo 2 1520 -500 500 500 500 333
+    servo 3 1520 -500 500 500 500 333
+    #$ OPTION END
+#$ OPTION_GROUP END
+
+
