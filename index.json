@@ -169,8 +169,8 @@
   "presets": [
     {
       "fullPath": "presets/AdTur/setup/2.2/ServoSetup.txt",
-      "hash": "3353980e130ada6d975b190718d1678855907405ab802636a14159c996572d2c",
-      "title": "Cyclic Servo Setup",
+      "hash": "7eb8044c5704363326899cfafb057c722c5ad23c7448337cd3c80197be1969e9",
+      "title": "Cyclic Servo Setup 1500us-760us",
       "firmware_version": [
         "4.5",
         "4.4"
