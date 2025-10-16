@@ -1,4 +1,4 @@
-#$ TITLE: Cyclic Servo Setup 1500us-760us
+#$ TITLE: Cyclic Servo Setup 1500us-760us-300us
 #$ FIRMWARE_VERSION: 4.5
 #$ FIRMWARE_VERSION: 4.4
 #$ CATEGORY: SETUP
@@ -9,33 +9,34 @@
 #$ WARNING: Using the incorrect settings can dammage your servos. After complete please check all SERVO DIRECTIONS as they may be reversed
 #$ PARSER: MARKED
 
-
-#$ DESCRIPTION: -⚠️ Warning ⚠️-
-#$ DESCRIPTION: DUE TO A LIMITATION WITH CLI THIS MY ALSO REVERSE YOUR SERVOS, PLEASE CHECK DIRECTIONS
-#$ DESCRIPTION: -⚠️ Warning ⚠️- <br/> <br/>  
-#$ DESCRIPTION: Digital programmable servos let you adjust their center pulse from Standard (1520us) to Narrow Band (760us). This preset makes it easy to set the RF center pulse, along with the matching Min, Max, and Scale values, for the three cyclic servos (1, 2, and 3)<br/><br/>
-#$ DESCRIPTION: Pick the correct center pulse width for your servos from the list.
-
+#$ DESCRIPTION: ⚠️ Warning - DUE TO A LIMITATION WITH CLI THIS MY ALSO REVERSE YOUR SERVOS, <strong> PLEASE CHECK DIRECTIONS</strong> ⚠️ <br> <br>  
+#$ DESCRIPTION: Digital programmable servos let you adjust their center pulse from Standard (1520us) to Narrow Band (760us). This preset makes it easy to set the RF center pulse, along with the matching Min, Max, and Scale values, for the three cyclic servos (1, 2, and 3)<br><br>
+#$ DESCRIPTION: Pick the correct PWM center pulse for your servos from the list
 
 #$ OPTION_GROUP BEGIN: (EXCLUSIVE) Exclusive Option Group
-    #$ OPTION BEGIN (CHECKED): 1500us
+    #$ OPTION BEGIN (CHECKED): 1500us (Standard)
     servo 1 1500 -500 500 500 500 333 0 2
     servo 2 1500 -500 500 500 500 333 0 3
     servo 3 1500 -500 500 500 500 333 0 2
     #$ OPTION END
-    #$ OPTION BEGIN (UNCHECKED): 1520us
+    #$ OPTION BEGIN (UNCHECKED): 1520us (Standard)
     servo 1 1520 -500 500 500 500 333 0 2
     servo 2 1520 -500 500 500 500 333 0 3
     servo 3 1520 -500 500 500 500 333 0 2
     #$ OPTION END
-    #$ OPTION BEGIN (UNCHECKED): 750us
+    #$ OPTION BEGIN (UNCHECKED): 750us (Narrow Band)
     servo 1 750 -250 250 250 250 333 0 2
     servo 2 750 -250 250 250 250 333 0 3
     servo 3 750 -250 250 250 250 333 0 2
     #$ OPTION END
-    #$ OPTION BEGIN (UNCHECKED): 760us
+    #$ OPTION BEGIN (UNCHECKED): 760us (Narrow Band)
     servo 1 760 -250 250 250 250 333 0 2
     servo 2 760 -250 250 250 250 333 0 3
     servo 3 760 -250 250 250 250 333 0 2
+    #$ OPTION END
+    #$ OPTION BEGIN (UNCHECKED): 300us (SANWA SSR)
+    servo 1 300 -250 250 190 190 500 0 2
+    servo 2 300 -250 250 190 190 500 0 3
+    servo 3 300 -250 250 190 190 500 0 2
     #$ OPTION END
 #$ OPTION_GROUP END
