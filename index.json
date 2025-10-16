@@ -139,6 +139,7 @@
       "SETUP"
     ],
     "author": [
+      "AdTur (Adam Turner)",
       "etocii",
       "FDRC",
       "The Rotorflight Team"
@@ -154,6 +155,7 @@
       "s.bus",
       "sbus",
       "servo",
+      "Servos",
       "voltage"
     ],
     "board_name": [
@@ -165,6 +167,23 @@
     ]
   },
   "presets": [
+    {
+      "fullPath": "presets/AdTur/setup/2.2/ServoSetup.txt",
+      "hash": "3353980e130ada6d975b190718d1678855907405ab802636a14159c996572d2c",
+      "title": "Cyclic Servo Setup",
+      "firmware_version": [
+        "4.5",
+        "4.4"
+      ],
+      "category": "SETUP",
+      "status": "COMMUNITY",
+      "keywords": [
+        "Servos"
+      ],
+      "author": "AdTur (Adam Turner)",
+      "force_options_review": true,
+      "priority": 0
+    },
     {
       "fullPath": "presets/FDRC/f722v2.x/f722v2/remapping/ext-volt-to-bec.txt",
       "hash": "dca07216bfee6a025790844b6f4d1d16589c0c5fbe266fa66115a70e5971e1f1",
