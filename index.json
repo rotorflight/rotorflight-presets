@@ -168,7 +168,10 @@
       "FLYDRAGON_V2_2",
       "FLYDRAGONF722_V2",
       "FLYDRAGONF722_V2_2",
-      "NEXUS_F7"
+      "NEXUS_F7",
+      "NEXUS_X",
+      "NEXUS_XR",
+      "VANTAC_RF007"
     ]
   },
   "presets": [
@@ -260,7 +263,7 @@
     },
     {
       "fullPath": "presets/Hans/remap/bufferpacks/Flydragon_pro_bufferpack.txt",
-      "hash": "c4baeb551b9a4c1d2d40a97d72a33aba080983c6901ab8f8d8ac36c86cfa0df4",
+      "hash": "5a9f843ec92e22174a3635e79574b494b382936b0cc8b79c7acb960bdf709dbb",
       "title": "Remap a port to switch on/off capacitor pack",
       "firmware_version": [
         "4.4",
@@ -275,6 +278,77 @@
       "status": "EXPERIMENTAL",
       "keywords": [
         "aux",
+        "capacitor",
+        "bufferpack"
+      ],
+      "author": "Hans Ouwehand",
+      "priority": 0,
+      "force_options_review": true
+    },
+    {
+      "fullPath": "presets/Hans/remap/bufferpacks/Nexus_F7.txt",
+      "hash": "7c4d108410410badf4b7739f1be1476749adcf6bcbfda965d2c0df2b983cfe3a",
+      "title": "Remap a port to switch on/off capacitor pack",
+      "firmware_version": [
+        "4.4",
+        "4.5",
+        "4.6"
+      ],
+      "board_name": [
+        "NEXUS_F7"
+      ],
+      "category": "REMAPPING",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "capacitor",
+        "bufferpack"
+      ],
+      "author": "Hans Ouwehand",
+      "priority": 0,
+      "force_options_review": true
+    },
+    {
+      "fullPath": "presets/Hans/remap/bufferpacks/Nexus_X_XR.txt",
+      "hash": "37c5426fb9d6bde802a33bedf062029ffab91a7a5ae55d64046d3aaeb3dadbfb",
+      "title": "Remap a port to switch on/off capacitor pack",
+      "firmware_version": [
+        "4.4",
+        "4.5",
+        "4.6"
+      ],
+      "board_name": [
+        "NEXUS_X",
+        "NEXUS_XR"
+      ],
+      "category": "REMAPPING",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "aux",
+        "sbus",
+        "capacitor",
+        "bufferpack"
+      ],
+      "author": "Hans Ouwehand",
+      "priority": 0,
+      "force_options_review": true
+    },
+    {
+      "fullPath": "presets/Hans/remap/bufferpacks/VantacRF007.txt",
+      "hash": "0ab1fca9b3f5af13256b68298d9a78c8d83bee24cd429ec499ca5714d5f87794",
+      "title": "Remap a port to switch on/off capacitor pack",
+      "firmware_version": [
+        "4.4",
+        "4.5",
+        "4.6"
+      ],
+      "board_name": [
+        "VANTAC_RF007"
+      ],
+      "category": "REMAPPING",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "aux",
+        "sbus",
         "capacitor",
         "bufferpack"
       ],
