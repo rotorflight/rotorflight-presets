@@ -309,7 +309,7 @@
     },
     {
       "fullPath": "presets/Hans/remap/bufferpacks/Nexus_X_XR.txt",
-      "hash": "66fe3e0ac7bca648025d14c44bc7fd910033f2542582f92f6b75215f16f3e451",
+      "hash": "39be8f5d5e1d1fff4b39746d08214ed14dc7b447da2d0f28d40389ad3c182f58",
       "title": "Remap a port to switch on/off capacitor pack",
       "firmware_version": [
         "4.4",
@@ -321,7 +321,7 @@
         "NEXUS_XR"
       ],
       "category": "REMAPPING",
-      "status": "EXPERIMENTAL",
+      "status": "COMMUNITY",
       "keywords": [
         "aux",
         "sbus",
