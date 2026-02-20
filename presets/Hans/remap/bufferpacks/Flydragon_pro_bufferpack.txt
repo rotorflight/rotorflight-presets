@@ -7,7 +7,7 @@
 
 
 #$ CATEGORY: REMAPPING
-#$ STATUS: EXPERIMENTAL
+#$ STATUS: COMMUNITY
 #$ KEYWORDS: aux, capacitor, bufferpack
 #$ AUTHOR: Hans Ouwehand
 #$ DESCRIPTION: Enables a port to enable/disable the bufferpack.
@@ -36,6 +36,10 @@
 #$ OPTION_GROUP END
 
 #$ OPTION_GROUP BEGIN: (EXCLUSIVE) Input Channel
+    #$ OPTION BEGIN (UNCHECKED): Channel 9
+    mixer input CH9 -1000 1000 1000
+    mixer rule 10 set CH9 S5 1000 0
+    #$ OPTION END
     #$ OPTION BEGIN (UNCHECKED): Channel 10
     mixer input CH10 -1000 1000 1000
     mixer rule 10 set CH10 S5 1000 0
@@ -47,17 +51,5 @@
     #$ OPTION BEGIN (UNCHECKED): Channel 12
     mixer input CH12 -1000 1000 1000
     mixer rule 10 set CH12 S5 1000 0
-    #$ OPTION END
-    #$ OPTION BEGIN (UNCHECKED): Channel 13
-    mixer input CH13 -1000 1000 1000
-    mixer rule 10 set CH13 S5 1000 0
-    #$ OPTION END
-    #$ OPTION BEGIN (UNCHECKED): Channel 14
-    mixer input CH14 -1000 1000 1000
-    mixer rule 10 set CH14 S5 1000 0
-    #$ OPTION END
-    #$ OPTION BEGIN (UNCHECKED): Channel 15
-    mixer input CH15 -1000 1000 1000
-    mixer rule 10 set CH15 S5 1000 0
     #$ OPTION END
 #$ OPTION_GROUP END
