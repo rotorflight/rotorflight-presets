@@ -140,6 +140,7 @@
       "SETUP"
     ],
     "author": [
+      "AdTur (Adam Turner)",
       "etocii",
       "FDRC",
       "Hans Ouwehand",
@@ -159,6 +160,7 @@
       "s.bus",
       "sbus",
       "servo",
+      "Servos",
       "voltage"
     ],
     "board_name": [
@@ -175,6 +177,40 @@
     ]
   },
   "presets": [
+    {
+      "fullPath": "presets/AdTur/setup/2.2/ServoSetup.txt",
+      "hash": "b1b5b236543c1f1d2fb11edb145a7bb2cc6902d124e3a81307af682d9a397f2e",
+      "title": "Cyclic Servo Setup 1500us-760us-300us",
+      "firmware_version": [
+        "4.5",
+        "4.4"
+      ],
+      "category": "SETUP",
+      "status": "COMMUNITY",
+      "keywords": [
+        "Servos"
+      ],
+      "author": "AdTur (Adam Turner)",
+      "force_options_review": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/AdTur/setup/2.2/TailServoSetup.txt",
+      "hash": "4fa9981f5777bb883e71e89f64a84bb3e434eea9676ce599114263426e56ff0c",
+      "title": "Tail Servo Setup 1500us-760us-300us",
+      "firmware_version": [
+        "4.5",
+        "4.4"
+      ],
+      "category": "SETUP",
+      "status": "COMMUNITY",
+      "keywords": [
+        "Servos"
+      ],
+      "author": "AdTur (Adam Turner)",
+      "force_options_review": true,
+      "priority": 0
+    },
     {
       "fullPath": "presets/etocii/setup/2.2/etocii-filters.txt",
       "hash": "84acafde3f50dea78352a4c0403f566a60ae7d6efba7f9ce4380c1d6f473a096",
