@@ -2,21 +2,31 @@
 #$ FIRMWARE_VERSION: 4.4
 #$ FIRMWARE_VERSION: 4.5
 #$ FIRMWARE_VERSION: 4.6
-#$ BOARD_NAME: NEXUS_F7
+#$ BOARD_NAME: VANTAC_RF007
+
 
 
 #$ CATEGORY: REMAPPING
 #$ STATUS: OFFICIAL
-#$ KEYWORDS: capacitor, bufferpack
+#$ KEYWORDS: aux, sbus, capacitor, bufferpack
 #$ AUTHOR: Hans Ouwehand
 #$ DESCRIPTION: Enables a port to enable/disable the bufferpack.
-#$ DESCRIPTION: Remap the sbus port to switch on/off the bufferpack.
-#$ DESCRIPTION: You can choose the radio channel which you want to use to switch it on/off
+#$ DESCRIPTION: There are some options which you can choose.
+#$ DESCRIPTION: You can choose which port you have connected the bufferpack and
+#$ DESCRIPTION: choose the radio channel which you want to use to switch it on/off
 #$ PRIORITY: 0
 #$ FORCE_OPTIONS_REVIEW: TRUE
 
-resource SERIAL_RX 2 NONE
-resource SERVO 5 A03
+#$ OPTION_GROUP BEGIN: (EXCLUSIVE) Port
+    #$ OPTION BEGIN (UNCHECKED): Aux
+    resource SERIAL_TX 1 NONE
+    resource SERVO 5 B06
+    #$ OPTION END
+    #$ OPTION BEGIN (UNCHECKED): SBUS
+    resource SERIAL_RX 1 NONE
+    resource SERVO 5 B07
+    #$ OPTION END
+#$ OPTION_GROUP END
 
 #$ OPTION_GROUP BEGIN: (EXCLUSIVE) Input Channel
     #$ OPTION BEGIN (UNCHECKED): Channel 9

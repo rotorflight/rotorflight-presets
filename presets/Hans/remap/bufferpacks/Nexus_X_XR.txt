@@ -7,7 +7,7 @@
 
 
 #$ CATEGORY: REMAPPING
-#$ STATUS: COMMUNITY
+#$ STATUS: OFFICIAL
 #$ KEYWORDS: aux, sbus, capacitor, bufferpack
 #$ AUTHOR: Hans Ouwehand
 #$ DESCRIPTION: Enables a port to enable/disable the bufferpack.
