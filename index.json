@@ -151,6 +151,7 @@
       "bec",
       "bufferpack",
       "capacitor",
+      "ESC Telemetry",
       "ext",
       "f.port",
       "filters",
@@ -179,7 +180,7 @@
   "presets": [
     {
       "fullPath": "presets/AdTur/setup/2.2/ServoSetup.txt",
-      "hash": "b1b5b236543c1f1d2fb11edb145a7bb2cc6902d124e3a81307af682d9a397f2e",
+      "hash": "5e2c1ed1fea19449147eec7b112c5aa855a456a58b45535e3ee35b8754fed39a",
       "title": "Cyclic Servo Setup 1500us-760us-300us",
       "firmware_version": [
         "4.5",
@@ -196,7 +197,7 @@
     },
     {
       "fullPath": "presets/AdTur/setup/2.2/TailServoSetup.txt",
-      "hash": "4fa9981f5777bb883e71e89f64a84bb3e434eea9676ce599114263426e56ff0c",
+      "hash": "3fcd80d782be97c0c135bf0fbbd1541f86835083c3cb7e316ec947d37759ad43",
       "title": "Tail Servo Setup 1500us-760us-300us",
       "firmware_version": [
         "4.5",
@@ -387,6 +388,234 @@
         "sbus",
         "capacitor",
         "bufferpack"
+      ],
+      "author": "Hans Ouwehand",
+      "priority": 0,
+      "force_options_review": true
+    },
+    {
+      "fullPath": "presets/Hans/setup/esc telemetry/Flydragon_pro/escape32_AM32-telemetry.txt",
+      "hash": "edf667ac045c9178f3e5cfbfd95efa33bbe4791eb083505fee9cda924eb81254",
+      "title": "Escape32/AM32 telemetry setup",
+      "firmware_version": [
+        "4.5",
+        "4.6"
+      ],
+      "board_name": [
+        "FLYDRAGON_PRO6000",
+        "FLYDRAGON_PRO42688"
+      ],
+      "category": "SETUP",
+      "status": "COMMUNITY",
+      "keywords": [
+        "ESC Telemetry"
+      ],
+      "author": "Hans Ouwehand",
+      "priority": 0,
+      "force_options_review": true
+    },
+    {
+      "fullPath": "presets/Hans/setup/esc telemetry/Flydragon_pro/Hobbywing_V4-telemetry.txt",
+      "hash": "7f22107def36b769f5fbd1680e51116dd261b63cbcd02388226b86dcb6921ebc",
+      "title": "Hobbywing V4 telemetry setup",
+      "firmware_version": [
+        "4.5",
+        "4.6"
+      ],
+      "board_name": [
+        "FLYDRAGON_PRO6000",
+        "FLYDRAGON_PRO42688"
+      ],
+      "category": "SETUP",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "ESC Telemetry"
+      ],
+      "author": "Hans Ouwehand",
+      "priority": 0,
+      "force_options_review": true
+    },
+    {
+      "fullPath": "presets/Hans/setup/esc telemetry/Flydragon_pro/Hobbywing_V5-telemetry.txt",
+      "hash": "5b2fbd2035b4d35aa45291a82a9422a5c45ac35a7bff6624160b2ddfee254fc0",
+      "title": "Hobbywing V5 telemetry setup",
+      "firmware_version": [
+        "4.5",
+        "4.6"
+      ],
+      "board_name": [
+        "FLYDRAGON_PRO6000",
+        "FLYDRAGON_PRO42688"
+      ],
+      "category": "SETUP",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "ESC Telemetry"
+      ],
+      "author": "Hans Ouwehand",
+      "priority": 0,
+      "force_options_review": true
+    },
+    {
+      "fullPath": "presets/Hans/setup/esc telemetry/Flydragon_pro/Scorpion-telemetry.txt",
+      "hash": "0d31bbd9af0fbcb89f90c10e021954b5db4053142460a1da230d76035b48eaa8",
+      "title": "Scorpion telemetry setup",
+      "firmware_version": [
+        "4.5",
+        "4.6"
+      ],
+      "board_name": [
+        "FLYDRAGON_PRO6000",
+        "FLYDRAGON_PRO42688"
+      ],
+      "category": "SETUP",
+      "status": "COMMUNITY",
+      "keywords": [
+        "ESC Telemetry"
+      ],
+      "author": "Hans Ouwehand",
+      "priority": 0,
+      "force_options_review": true
+    },
+    {
+      "fullPath": "presets/Hans/setup/esc telemetry/Flydragon_V2_V2.2/Hobbywing_V4-telemetry.txt",
+      "hash": "dfb938d883bcec573bf01de0af9bc6c0402d7651ffe50305b723023322298965",
+      "title": "Hobbywing V4 telemetry setup",
+      "firmware_version": [
+        "4.5",
+        "4.6"
+      ],
+      "board_name": [
+        "FLYDRAGON_V2",
+        "FLYDRAGON_V2_2"
+      ],
+      "category": "SETUP",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "ESC Telemetry"
+      ],
+      "author": "Hans Ouwehand",
+      "priority": 0,
+      "force_options_review": true
+    },
+    {
+      "fullPath": "presets/Hans/setup/esc telemetry/Flydragon_V2_V2.2/Hobbywing_V5-telemetry.txt",
+      "hash": "ff999b0529a94b577a7cfee198fe6fdb8b57231f956ac5cd16c3ebc06e5f2ee9",
+      "title": "Hobbywing V5 telemetry setup",
+      "firmware_version": [
+        "4.5",
+        "4.6"
+      ],
+      "board_name": [
+        "FLYDRAGON_V2",
+        "FLYDRAGON_V2_2"
+      ],
+      "category": "SETUP",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "ESC Telemetry"
+      ],
+      "author": "Hans Ouwehand",
+      "priority": 0,
+      "force_options_review": true
+    },
+    {
+      "fullPath": "presets/Hans/setup/esc telemetry/Flydragon_V2_V2.2/Scorpion-telemetry.txt",
+      "hash": "b81920c9f7f25355b0065d5015f5d1f616b8220837cadf13fba1784015df44b6",
+      "title": "Scorpion telemetry setup",
+      "firmware_version": [
+        "4.5",
+        "4.6"
+      ],
+      "board_name": [
+        "FLYDRAGON_V2",
+        "FLYDRAGON_V2_2"
+      ],
+      "category": "SETUP",
+      "status": "COMMUNITY",
+      "keywords": [
+        "ESC Telemetry"
+      ],
+      "author": "Hans Ouwehand",
+      "priority": 0,
+      "force_options_review": true
+    },
+    {
+      "fullPath": "presets/Hans/setup/esc telemetry/Nexus_F7/escape32_AM32-telemetry.txt",
+      "hash": "55ef17e6e8370a12ac08c5b4774dcc47477250466c82ccc6c08160c6759a09be",
+      "title": "Escape32/AM32 telemetry setup",
+      "firmware_version": [
+        "4.5",
+        "4.6"
+      ],
+      "board_name": [
+        "FLYDRAGON_PRO6000",
+        "FLYDRAGON_PRO42688"
+      ],
+      "category": "SETUP",
+      "status": "COMMUNITY",
+      "keywords": [
+        "ESC Telemetry"
+      ],
+      "author": "Hans Ouwehand",
+      "priority": 0,
+      "force_options_review": true
+    },
+    {
+      "fullPath": "presets/Hans/setup/esc telemetry/Nexus_F7/Hobbywing_V4-telemetry.txt",
+      "hash": "1593720463b189841f76b93ad341334415f201af76f4e050e1e3df6626e06b7b",
+      "title": "Hobbywing V4 telemetry setup",
+      "firmware_version": [
+        "4.5",
+        "4.6"
+      ],
+      "board_name": [
+        "NEXUS_F7"
+      ],
+      "category": "SETUP",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "ESC Telemetry"
+      ],
+      "author": "Hans Ouwehand",
+      "priority": 0,
+      "force_options_review": true
+    },
+    {
+      "fullPath": "presets/Hans/setup/esc telemetry/Nexus_F7/Hobbywing_V5-telemetry.txt",
+      "hash": "ae739351c2712797a8df739c42ea1cafe7c97d9a634b8c227ac187c658506894",
+      "title": "Hobbywing V5 telemetry setup",
+      "firmware_version": [
+        "4.5",
+        "4.6"
+      ],
+      "board_name": [
+        "NEXUS_F7"
+      ],
+      "category": "SETUP",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "ESC Telemetry"
+      ],
+      "author": "Hans Ouwehand",
+      "priority": 0,
+      "force_options_review": true
+    },
+    {
+      "fullPath": "presets/Hans/setup/esc telemetry/Nexus_F7/Scorpion-telemetry.txt",
+      "hash": "8f7d0136fbbdaee3deebaa655f1b836a7b12b89d2320bdc8ae8dae27bfa18643",
+      "title": "Scorpion telemetry setup",
+      "firmware_version": [
+        "4.5",
+        "4.6"
+      ],
+      "board_name": [
+        "NEXUS_F7"
+      ],
+      "category": "SETUP",
+      "status": "COMMUNITY",
+      "keywords": [
+        "ESC Telemetry"
       ],
       "author": "Hans Ouwehand",
       "priority": 0,
