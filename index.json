@@ -300,7 +300,7 @@
     },
     {
       "fullPath": "presets/Hans/remap/bufferpacks/Flydragon_pro_bufferpack.txt",
-      "hash": "1be10649572a4b4250a8cc03bb2289a8a8a992f5599c8cb151da851813e254ff",
+      "hash": "787982253d4cf59cb9adb5ea7d963d4c59c99e92596495b75869324e6701063e",
       "title": "Remap a port to switch on/off capacitor pack",
       "firmware_version": [
         "4.4",
@@ -324,7 +324,7 @@
     },
     {
       "fullPath": "presets/Hans/remap/bufferpacks/Nexus_F7.txt",
-      "hash": "c4ca5af40e1c64316beb4d5bf2d260dca01346c542a9c3b4b2949d628dc20359",
+      "hash": "c7e6e0b4f305c140ee507729e7dd5a02a78f31c3b12034d6449088d800088270",
       "title": "Remap a port to switch on/off capacitor pack",
       "firmware_version": [
         "4.4",
@@ -346,7 +346,7 @@
     },
     {
       "fullPath": "presets/Hans/remap/bufferpacks/Nexus_X_XR.txt",
-      "hash": "9e5df2db320f74e739b0b5541a1bda77216d4a0545d600bbbe71f7f03989dbc5",
+      "hash": "d494ff13b368419b45e6265d7c4caa9ad1133b9005feb8402affad2b16962982",
       "title": "Remap a port to switch on/off capacitor pack",
       "firmware_version": [
         "4.4",
@@ -371,7 +371,7 @@
     },
     {
       "fullPath": "presets/Hans/remap/bufferpacks/VantacRF007.txt",
-      "hash": "96ed9de456c258f7a4a0be3eaecf6df70e92bd9d60243f18ecf281d1863b5e41",
+      "hash": "8d178aff8268657e1447a17453409a29f29c169ca96dd6407024383fd3c82a27",
       "title": "Remap a port to switch on/off capacitor pack",
       "firmware_version": [
         "4.4",
