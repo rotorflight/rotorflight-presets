@@ -141,6 +141,7 @@
     ],
     "author": [
       "AdTur (Adam Turner)",
+      "Archie RC",
       "etocii",
       "FDRC",
       "Hans Ouwehand",
@@ -157,6 +158,7 @@
       "filters",
       "fport",
       "motorized tail",
+      "RC smoothing",
       "rpm-s rpm-e rpm",
       "s.bus",
       "sbus",
@@ -618,6 +620,23 @@
         "ESC Telemetry"
       ],
       "author": "Hans Ouwehand",
+      "priority": 0,
+      "force_options_review": true
+    },
+    {
+      "fullPath": "presets/Hans/setup/RC-smoothing.txt",
+      "hash": "f794c6c1a7dcfc301c66ad79ef6481f0c09fe784e69ac657a8e87a1b9ba294f2",
+      "title": "Input Smoothing & Rate Response Preset  (Movie Butter V2)",
+      "firmware_version": [
+        "4.5",
+        "4.6"
+      ],
+      "category": "SETUP",
+      "status": "COMMUNITY",
+      "keywords": [
+        "RC smoothing"
+      ],
+      "author": "Archie RC",
       "priority": 0,
       "force_options_review": true
     },
