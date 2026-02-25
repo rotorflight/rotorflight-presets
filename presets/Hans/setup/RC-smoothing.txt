@@ -10,7 +10,7 @@
 
  
 
-This preset enhances feel on mechanically sound, properly tuned helicopters. It does not replace correct PID setup.
+#$ DESCRIPTION: This preset enhances feel on mechanically sound, properly tuned helicopters. It does not replace correct PID setup.
 #$ DESCRIPTION: This preset combines RC command smoothing with rate response tuning. It is designed for fast, low-latency links such as ELRS, FrSky Twin, Tandem, and Archer systems.
 #$ DESCRIPTION: Rather than altering PID gains, this preset reshapes the RC command signal before it is processed by the PID controller.
 #$ DESCRIPTION: The goal is to refine how stick inputs translate into rotor response, making the helicopter feel more predictable and polished without changing the core tune.
