@@ -152,7 +152,6 @@
       "bec",
       "bufferpack",
       "capacitor",
-      "Edgetx",
       "ESC Telemetry",
       "ext",
       "f.port",
@@ -165,7 +164,6 @@
       "sbus",
       "servo",
       "Servos",
-      "Telemetry",
       "voltage"
     ],
     "board_name": [
@@ -641,23 +639,6 @@
       "author": "Archie RC",
       "priority": 0,
       "force_options_review": true
-    },
-    {
-      "fullPath": "presets/Hans/setup/Telemetry-sensors-edgetx.txt",
-      "hash": "81317e6d3ee801574a8109d05a0c4b2437af5a7f79ad1200b00d605983a2b538",
-      "title": "Set telemetry sensors RFsuite Ethos, RF2dashboards and Flylog.",
-      "firmware_version": [
-        "4.5",
-        "4.6"
-      ],
-      "category": "SETUP",
-      "status": "EXPERIMENTAL",
-      "keywords": [
-        "Telemetry",
-        "Edgetx"
-      ],
-      "author": "Hans Ouwehand",
-      "priority": 0
     },
     {
       "fullPath": "presets/RDMS/nexus/motorized-tail.txt",
