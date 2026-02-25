@@ -152,6 +152,7 @@
       "bec",
       "bufferpack",
       "capacitor",
+      "Edgetx",
       "ESC Telemetry",
       "ext",
       "f.port",
@@ -164,6 +165,7 @@
       "sbus",
       "servo",
       "Servos",
+      "Telemetry",
       "voltage"
     ],
     "board_name": [
@@ -625,7 +627,7 @@
     },
     {
       "fullPath": "presets/Hans/setup/RC-smoothing.txt",
-      "hash": "4cdb1aae37d8f755dc93adbce8823839e6886cc111ac57b1310cdd2d7f130de4",
+      "hash": "9eb75c3937365a7c3672a40a9fd6567c6cd9529ffaecc7797ff4f5e8d61cc880",
       "title": "Input Smoothing & Rate Response Preset  (Movie Butter V2)",
       "firmware_version": [
         "4.5",
@@ -639,6 +641,23 @@
       "author": "Archie RC",
       "priority": 0,
       "force_options_review": true
+    },
+    {
+      "fullPath": "presets/Hans/setup/Telemetry-sensors-edgetx.txt",
+      "hash": "81317e6d3ee801574a8109d05a0c4b2437af5a7f79ad1200b00d605983a2b538",
+      "title": "Set telemetry sensors RFsuite Ethos, RF2dashboards and Flylog.",
+      "firmware_version": [
+        "4.5",
+        "4.6"
+      ],
+      "category": "SETUP",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "Telemetry",
+        "Edgetx"
+      ],
+      "author": "Hans Ouwehand",
+      "priority": 0
     },
     {
       "fullPath": "presets/RDMS/nexus/motorized-tail.txt",
