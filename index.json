@@ -170,7 +170,8 @@
       "Servos",
       "Telemetry",
       "TUNING",
-      "voltage"
+      "voltage",
+      "XDfly"
     ],
     "board_name": [
       "FLYDRAGON_PRO42688",
@@ -505,6 +506,27 @@
       "force_options_review": true
     },
     {
+      "fullPath": "presets/Hans/setup/esc telemetry/Flydragon_pro/Xdfly-telemetry.txt",
+      "hash": "f4d65711b35290c2ded1ac6d17359a3bcb85879c457f3ecdf0490ce1d9b59947",
+      "title": "Scorpion telemetry setup",
+      "firmware_version": [
+        "4.5",
+        "4.6"
+      ],
+      "board_name": [
+        "FLYDRAGON_PRO6000",
+        "FLYDRAGON_PRO42688"
+      ],
+      "category": "SETUP",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "ESC Telemetry",
+        "XDfly"
+      ],
+      "author": "Hans Ouwehand",
+      "priority": 0
+    },
+    {
       "fullPath": "presets/Hans/setup/esc telemetry/Flydragon_V2_V2.2/Hobbywing_V4-telemetry.txt",
       "hash": "dfb938d883bcec573bf01de0af9bc6c0402d7651ffe50305b723023322298965",
       "title": "Hobbywing V4 telemetry setup",
@@ -566,6 +588,27 @@
       "author": "Hans Ouwehand",
       "priority": 0,
       "force_options_review": true
+    },
+    {
+      "fullPath": "presets/Hans/setup/esc telemetry/Flydragon_V2_V2.2/Xdfly-telemetry.txt",
+      "hash": "cb9383e94e1738ff400687a1e1993e51a8b59a31009ebe0b60e508294876a5c0",
+      "title": "Scorpion telemetry setup",
+      "firmware_version": [
+        "4.5",
+        "4.6"
+      ],
+      "board_name": [
+        "FLYDRAGON_V2",
+        "FLYDRAGON_V2_2"
+      ],
+      "category": "SETUP",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "ESC Telemetry",
+        "XDfly"
+      ],
+      "author": "Hans Ouwehand",
+      "priority": 0
     },
     {
       "fullPath": "presets/Hans/setup/esc telemetry/Nexus_F7/escape32_AM32-telemetry.txt",
@@ -647,6 +690,26 @@
       "author": "Hans Ouwehand",
       "priority": 0,
       "force_options_review": true
+    },
+    {
+      "fullPath": "presets/Hans/setup/esc telemetry/Nexus_F7/Xdfly-telemetry.txt",
+      "hash": "4353903e65483d0dc1370deac20d678369ad0bfcbc39cbb4ac81638d9fbf9abd",
+      "title": "Scorpion telemetry setup",
+      "firmware_version": [
+        "4.5",
+        "4.6"
+      ],
+      "board_name": [
+        "NEXUS_F7"
+      ],
+      "category": "SETUP",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "ESC Telemetry",
+        "XDfly"
+      ],
+      "author": "Hans Ouwehand",
+      "priority": 0
     },
     {
       "fullPath": "presets/Hans/setup/RC-smoothing.txt",
