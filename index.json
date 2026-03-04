@@ -169,6 +169,7 @@
       "servo",
       "Servos",
       "Telemetry",
+      "TUNING",
       "voltage"
     ],
     "board_name": [
@@ -679,6 +680,22 @@
         "Ethos"
       ],
       "author": "Hans Ouwehand",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/Hans/tuning/700-default-tune.txt",
+      "hash": "3d3a7d5e881479da608191adbcd655d15b8a0d56b9a1732bbb5df5a0858ee697",
+      "title": "700 default tune",
+      "firmware_version": [
+        "4.5",
+        "4.6"
+      ],
+      "category": "SETUP",
+      "status": "COMMUNITY",
+      "keywords": [
+        "TUNING"
+      ],
+      "author": "Archie RC",
       "priority": 0
     },
     {
