@@ -152,11 +152,15 @@
       "bec",
       "bufferpack",
       "capacitor",
+      "Dashboards",
+      "Edgetx",
       "ESC Telemetry",
+      "Ethos",
       "ext",
       "f.port",
       "filters",
       "fport",
+      "Inflight tuning",
       "motorized tail",
       "RC smoothing",
       "rpm-s rpm-e rpm",
@@ -164,6 +168,7 @@
       "sbus",
       "servo",
       "Servos",
+      "Telemetry",
       "voltage"
     ],
     "board_name": [
@@ -394,6 +399,25 @@
       "author": "Hans Ouwehand",
       "priority": 0,
       "force_options_review": true
+    },
+    {
+      "fullPath": "presets/Hans/setup/Basic setup for Edgetx.txt",
+      "hash": "b714e5c81d576e5fa2a3c321ba1edc04395cf4582ebdb0660219a69dd80ea1d9",
+      "title": "Set basic parameters for radio setup EdgeTX",
+      "firmware_version": [
+        "4.5",
+        "4.6"
+      ],
+      "category": "SETUP",
+      "status": "COMMUNITY",
+      "keywords": [
+        "Telemetry",
+        "Edgetx",
+        "Dashboards",
+        "Inflight tuning"
+      ],
+      "author": "Hans Ouwehand",
+      "priority": 0
     },
     {
       "fullPath": "presets/Hans/setup/esc telemetry/Flydragon_pro/escape32_AM32-telemetry.txt",
@@ -639,6 +663,23 @@
       "author": "Archie RC",
       "priority": 0,
       "force_options_review": true
+    },
+    {
+      "fullPath": "presets/Hans/setup/Telemetry-sensors-Ethos.txt",
+      "hash": "e4612debf0eaca4d1b8282f93601c48a759dc7cd5e053b30f83e242943307de0",
+      "title": "Set telemetry sensors for RFsuite on Ethos",
+      "firmware_version": [
+        "4.5",
+        "4.6"
+      ],
+      "category": "SETUP",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "Telemetry",
+        "Ethos"
+      ],
+      "author": "Hans Ouwehand",
+      "priority": 0
     },
     {
       "fullPath": "presets/RDMS/nexus/motorized-tail.txt",
