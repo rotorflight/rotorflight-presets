@@ -712,6 +712,112 @@
       "priority": 0
     },
     {
+      "fullPath": "presets/Hans/setup/esc telemetry/Nexus_X_XR-Vantac_007/escape32_AM32-telemetry.txt",
+      "hash": "c9791d38cf2bfc24ae2e9d2254b96568df5711bcf76d8eb8f1eee4ebf0790865",
+      "title": "Escape32/AM32 telemetry setup",
+      "firmware_version": [
+        "4.5",
+        "4.6"
+      ],
+      "board_name": [
+        "VANTAC_RF007",
+        "NEXUS_X",
+        "NEXUS_XR"
+      ],
+      "category": "SETUP",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "ESC Telemetry"
+      ],
+      "author": "Hans Ouwehand",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/Hans/setup/esc telemetry/Nexus_X_XR-Vantac_007/Hobbywing_V4-telemetry.txt",
+      "hash": "b191683910bfe648b8d637d77d68f5fc3b747265d4473fff1eb69b186f33340b",
+      "title": "Hobbywing V4 telemetry setup",
+      "firmware_version": [
+        "4.5",
+        "4.6"
+      ],
+      "board_name": [
+        "VANTAC_RF007",
+        "NEXUS_X",
+        "NEXUS_XR"
+      ],
+      "category": "SETUP",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "ESC Telemetry"
+      ],
+      "author": "Hans Ouwehand",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/Hans/setup/esc telemetry/Nexus_X_XR-Vantac_007/Hobbywing_V5-telemetry.txt",
+      "hash": "fe65aa8897883d285b6d7ae3f2b9de3225343894f83d2f6e127099dfc1006f17",
+      "title": "Hobbywing V5 telemetry setup",
+      "firmware_version": [
+        "4.5",
+        "4.6"
+      ],
+      "board_name": [
+        "VANTAC_RF007",
+        "NEXUS_X",
+        "NEXUS_XR"
+      ],
+      "category": "SETUP",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "ESC Telemetry"
+      ],
+      "author": "Hans Ouwehand",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/Hans/setup/esc telemetry/Nexus_X_XR-Vantac_007/Scorpion-telemetry.txt",
+      "hash": "4eb81fc8d692482fcc71d4066d109d602f082eb9749414a2a2f8f1126711e199",
+      "title": "Scorpion telemetry setup",
+      "firmware_version": [
+        "4.5",
+        "4.6"
+      ],
+      "board_name": [
+        "VANTAC_RF007",
+        "NEXUS_X",
+        "NEXUS_XR"
+      ],
+      "category": "SETUP",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "ESC Telemetry"
+      ],
+      "author": "Hans Ouwehand",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/Hans/setup/esc telemetry/Nexus_X_XR-Vantac_007/XDfly-telemetry.txt",
+      "hash": "4cb63a4ef8a1aa5009b18536e6a3cd943eddc06e10fa0737d7bf102736d6cb1b",
+      "title": "Xdfly telemetry setup",
+      "firmware_version": [
+        "4.5",
+        "4.6"
+      ],
+      "board_name": [
+        "VANTAC_RF007",
+        "NEXUS_X",
+        "NEXUS_XR"
+      ],
+      "category": "SETUP",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "ESC Telemetry",
+        "XDfly"
+      ],
+      "author": "Hans Ouwehand",
+      "priority": 0
+    },
+    {
       "fullPath": "presets/Hans/setup/RC-smoothing.txt",
       "hash": "9eb75c3937365a7c3672a40a9fd6567c6cd9529ffaecc7797ff4f5e8d61cc880",
       "title": "Input Smoothing & Rate Response Preset  (Movie Butter V2)",
