@@ -19,11 +19,11 @@ resource SERIAL_RX 2 NONE
 resource SERVO 5 A03
 
 #$ OPTION_GROUP BEGIN: (EXCLUSIVE) Input Channel
-    #$ OPTION BEGIN (UNCHECKED): Channel 7
+    #$ OPTION BEGIN (UNCHECKED): AUX 2
     mixer input AUX2 -1000 1000 1000
     mixer rule 10 set AUX2 S5 1000 0
     #$ OPTION END
-    #$ OPTION BEGIN (UNCHECKED): Channel 8
+    #$ OPTION BEGIN (UNCHECKED): AUX 3
     mixer input AUX3 -1000 1000 1000
     mixer rule 10 set AUX3 S5 1000 0
     #$ OPTION END
