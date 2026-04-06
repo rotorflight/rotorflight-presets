@@ -17,7 +17,7 @@
 #$ PRIORITY: 0
 
 resource servo 4 none
-resource motor2 C09
+resource motor 2 C09
 set tail_rotor_mode = MOTORIZED
 
 
