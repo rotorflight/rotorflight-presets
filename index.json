@@ -161,13 +161,15 @@
       "filters",
       "fport",
       "Inflight tuning",
-      "motorized tail",
+      "Motorized tail",
       "RC smoothing",
       "rpm-s rpm-e rpm",
       "s.bus",
       "sbus",
       "servo",
       "Servos",
+      "Setup",
+      "Tail",
       "Telemetry",
       "TUNING",
       "voltage",
@@ -183,7 +185,8 @@
       "NEXUS_F7",
       "NEXUS_X",
       "NEXUS_XR",
-      "VANTAC_RF007"
+      "VANTAC_RF007",
+      "VANTAC-RF007"
     ]
   },
   "presets": [
@@ -813,6 +816,74 @@
       "keywords": [
         "ESC Telemetry",
         "XDfly"
+      ],
+      "author": "Hans Ouwehand",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/Hans/setup/motorized-tail/Flydragon-pro-V2.txt",
+      "hash": "3703d490b83bbfd639205743cc90d0d9584a9a7252351c68a90393c4b44fe6a7",
+      "title": "Set parameters motorized tail",
+      "firmware_version": [
+        "4.5",
+        "4.6"
+      ],
+      "board_name": [
+        "FLYDRAGON_PRO6000",
+        "FLYDRAGON_PRO42688",
+        "FLYDRAGON_V2",
+        "FLYDRAGON_V2_2"
+      ],
+      "category": "SETUP",
+      "status": "COMMUNITY",
+      "keywords": [
+        "Tail",
+        "Setup",
+        "Motorized tail"
+      ],
+      "author": "Hans Ouwehand",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/Hans/setup/motorized-tail/Nexus_F7.txt",
+      "hash": "978edb0d0e0a0f2f7b4feef1822b40468dfb6aa522f407c27caa053dc56e7ae1",
+      "title": "Set parameters motorized tail",
+      "firmware_version": [
+        "4.5",
+        "4.6"
+      ],
+      "board_name": [
+        "NEXUS_F7"
+      ],
+      "category": "SETUP",
+      "status": "COMMUNITY",
+      "keywords": [
+        "Tail",
+        "Setup",
+        "Motorized tail"
+      ],
+      "author": "Hans Ouwehand",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/Hans/setup/motorized-tail/Vantac-RF007_Nexus-X-XR.txt",
+      "hash": "fd679762b9b30094b6ccc0fb8213209d82a27f6730167b66623ab52751a1b26e",
+      "title": "Set parameters motorized tail",
+      "firmware_version": [
+        "4.5",
+        "4.6"
+      ],
+      "board_name": [
+        "VANTAC-RF007",
+        "NEXUS_XR",
+        "NEXUS_X"
+      ],
+      "category": "SETUP",
+      "status": "OFFICIAL",
+      "keywords": [
+        "Tail",
+        "Setup",
+        "Motorized tail"
       ],
       "author": "Hans Ouwehand",
       "priority": 0
