@@ -822,7 +822,7 @@
     },
     {
       "fullPath": "presets/Hans/setup/motorized-tail/Flydragon-pro-V2.txt",
-      "hash": "92ba967974226acf990b9cea9f6bf6ca9dedd0988e2f12e674d712de9dff00b4",
+      "hash": "3703d490b83bbfd639205743cc90d0d9584a9a7252351c68a90393c4b44fe6a7",
       "title": "Set parameters motorized tail",
       "firmware_version": [
         "4.5",
@@ -835,7 +835,7 @@
         "FLYDRAGON_V2_2"
       ],
       "category": "SETUP",
-      "status": "EXPERIMENTAL",
+      "status": "COMMUNITY",
       "keywords": [
         "Tail",
         "Setup",
@@ -846,7 +846,7 @@
     },
     {
       "fullPath": "presets/Hans/setup/motorized-tail/Nexus_F7.txt",
-      "hash": "dcad0bcb461da4702a82a655392b73fc012a10be1bb1512c4cbe4cbd41a818c9",
+      "hash": "978edb0d0e0a0f2f7b4feef1822b40468dfb6aa522f407c27caa053dc56e7ae1",
       "title": "Set parameters motorized tail",
       "firmware_version": [
         "4.5",
@@ -856,7 +856,7 @@
         "NEXUS_F7"
       ],
       "category": "SETUP",
-      "status": "EXPERIMENTAL",
+      "status": "COMMUNITY",
       "keywords": [
         "Tail",
         "Setup",
@@ -867,7 +867,7 @@
     },
     {
       "fullPath": "presets/Hans/setup/motorized-tail/Vantac-RF007_Nexus-X-XR.txt",
-      "hash": "1eeba54928381b89764b97741345705ea3d907bf51eb20e785a6db8cc1c253e8",
+      "hash": "fd679762b9b30094b6ccc0fb8213209d82a27f6730167b66623ab52751a1b26e",
       "title": "Set parameters motorized tail",
       "firmware_version": [
         "4.5",
@@ -879,7 +879,7 @@
         "NEXUS_X"
       ],
       "category": "SETUP",
-      "status": "EXPERIMENTAL",
+      "status": "OFFICIAL",
       "keywords": [
         "Tail",
         "Setup",

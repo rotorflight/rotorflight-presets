@@ -6,7 +6,7 @@
 
 
 #$ CATEGORY: SETUP
-#$ STATUS: EXPERIMENTAL
+#$ STATUS: COMMUNITY
 #$ KEYWORDS: Tail, Setup, Motorized tail
 #$ AUTHOR: Hans Ouwehand
 
