@@ -148,10 +148,8 @@
       "The Rotorflight Team"
     ],
     "keywords": [
-      "aux",
       "bec",
-      "bufferpack",
-      "capacitor",
+      "Bufferpack",
       "Dashboards",
       "Edgetx",
       "ESC Telemetry",
@@ -160,13 +158,17 @@
       "f.port",
       "filters",
       "fport",
+      "Glow driver",
       "Inflight tuning",
+      "Light",
       "Motorized tail",
+      "PWM output",
       "RC smoothing",
       "rpm-s rpm-e rpm",
       "s.bus",
       "sbus",
       "servo",
+      "Servo 5",
       "Servos",
       "Setup",
       "Tail",
@@ -312,8 +314,8 @@
     },
     {
       "fullPath": "presets/Hans/remap/bufferpacks/Flydragon_pro_bufferpack.txt",
-      "hash": "29e2f8a1a16fd1d0027bdd7ff8ab5352b8ba9ecd600e8dab88ae68ac1109cad9",
-      "title": "Remap a port to switch on/off capacitor pack",
+      "hash": "d0970b227734230dea1a4ceaa5ab30e60d7be280fec0244a389c6592216518c8",
+      "title": "Servo 5: PWM, Servo, Glow driver, Capacitor, Buffer pack, Light ctrlr, retractable landing gear",
       "firmware_version": [
         "4.4",
         "4.5",
@@ -326,9 +328,11 @@
       "category": "REMAPPING",
       "status": "OFFICIAL",
       "keywords": [
-        "aux",
-        "capacitor",
-        "bufferpack"
+        "Servo 5",
+        "Bufferpack",
+        "PWM output",
+        "Glow driver",
+        "Light"
       ],
       "author": "Hans Ouwehand",
       "priority": 0,
@@ -336,8 +340,8 @@
     },
     {
       "fullPath": "presets/Hans/remap/bufferpacks/Nexus_F7.txt",
-      "hash": "9dc068ee9600ef9c1d371fb390674719c2d6b8de829b70347416c1e35dcfde6d",
-      "title": "Remap a port to switch on/off capacitor pack",
+      "hash": "2eec9310a4f57b1e93624832cd86f66719ce9c620b2ac776158e8007402ea06b",
+      "title": "Servo 5: PWM, Servo, Glow driver, Capacitor, Buffer pack, Light ctrlr, retractable landing gear",
       "firmware_version": [
         "4.4",
         "4.5",
@@ -349,8 +353,11 @@
       "category": "REMAPPING",
       "status": "OFFICIAL",
       "keywords": [
-        "capacitor",
-        "bufferpack"
+        "Servo 5",
+        "Bufferpack",
+        "PWM output",
+        "Glow driver",
+        "Light"
       ],
       "author": "Hans Ouwehand",
       "priority": 0,
@@ -358,8 +365,8 @@
     },
     {
       "fullPath": "presets/Hans/remap/bufferpacks/Nexus_X_XR.txt",
-      "hash": "027dc7703899110211728abfca75a2e348879c97333e6c9efc11d03b4dcda603",
-      "title": "Remap a port to switch on/off capacitor pack",
+      "hash": "2bca38ed257ed43384a2c32e5de0d410ecbff617e523e96edf77f4d07c2fd783",
+      "title": "Servo 5: PWM, Servo, Glow driver, Capacitor, Buffer pack, Light ctrlr, retractable landing gear",
       "firmware_version": [
         "4.4",
         "4.5",
@@ -372,10 +379,11 @@
       "category": "REMAPPING",
       "status": "OFFICIAL",
       "keywords": [
-        "aux",
-        "sbus",
-        "capacitor",
-        "bufferpack"
+        "Servo 5",
+        "Bufferpack",
+        "PWM output",
+        "Glow driver",
+        "Light"
       ],
       "author": "Hans Ouwehand",
       "priority": 0,
@@ -383,8 +391,8 @@
     },
     {
       "fullPath": "presets/Hans/remap/bufferpacks/VantacRF007.txt",
-      "hash": "9d6fcac04c3f7f03e77af0d8c7d05fa6e54413b12bcf2cbe45dd8081d56498fa",
-      "title": "Remap a port to switch on/off capacitor pack",
+      "hash": "201c74293e7259ebb170951d9ec383fa16e130299d0e21709f6be0ffad2196b4",
+      "title": "Servo 5: PWM, Servo, Glow driver, Capacitor, Buffer pack, Light ctrlr, retractable landing gear",
       "firmware_version": [
         "4.4",
         "4.5",
@@ -396,10 +404,11 @@
       "category": "REMAPPING",
       "status": "OFFICIAL",
       "keywords": [
-        "aux",
-        "sbus",
-        "capacitor",
-        "bufferpack"
+        "Servo 5",
+        "Bufferpack",
+        "PWM output",
+        "Glow driver",
+        "Light"
       ],
       "author": "Hans Ouwehand",
       "priority": 0,
