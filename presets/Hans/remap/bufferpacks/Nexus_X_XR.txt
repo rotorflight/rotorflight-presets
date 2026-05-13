@@ -1,4 +1,4 @@
-#$ TITLE: Remap a port to switch on/off capacitor pack
+#$ TITLE: Servo 5: PWM, Servo, Glow driver, Capacitor, Buffer pack, Light ctrlr, retractable landing gear
 #$ FIRMWARE_VERSION: 4.4
 #$ FIRMWARE_VERSION: 4.5
 #$ FIRMWARE_VERSION: 4.6
@@ -8,11 +8,11 @@
 
 #$ CATEGORY: REMAPPING
 #$ STATUS: OFFICIAL
-#$ KEYWORDS: aux, sbus, capacitor, bufferpack
+#$ KEYWORDS: Servo 5, Bufferpack, PWM output, Glow driver, Light
 #$ AUTHOR: Hans Ouwehand
-#$ DESCRIPTION: Enables a port to enable/disable the bufferpack.
+#$ DESCRIPTION: Enables/remap a port to a PWM output which can controll for exmaple a glow driver, lights and buffer packs.
 #$ DESCRIPTION: There are some options which you can choose.
-#$ DESCRIPTION: You can choose which port you have connected the bufferpack and
+#$ DESCRIPTION: You can choose which port you want to use and
 #$ DESCRIPTION: choose the radio channel which you want to use to switch it on/off
 #$ PRIORITY: 0
 #$ FORCE_OPTIONS_REVIEW: TRUE
