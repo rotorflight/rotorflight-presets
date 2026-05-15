@@ -187,8 +187,7 @@
       "NEXUS_F7",
       "NEXUS_X",
       "NEXUS_XR",
-      "VANTAC_RF007",
-      "VANTAC-RF007"
+      "VANTAC_RF007"
     ]
   },
   "presets": [
@@ -875,15 +874,15 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/Hans/setup/motorized-tail/Vantac-RF007_Nexus-X-XR.txt",
-      "hash": "fd679762b9b30094b6ccc0fb8213209d82a27f6730167b66623ab52751a1b26e",
+      "fullPath": "presets/Hans/setup/motorized-tail/Vantac_RF007_Nexus-X-XR.txt",
+      "hash": "7bdafbebbb2c490090f136d2040d800baa6aceef38846cd98a8d834dc7d9248c",
       "title": "Set parameters motorized tail",
       "firmware_version": [
         "4.5",
         "4.6"
       ],
       "board_name": [
-        "VANTAC-RF007",
+        "VANTAC_RF007",
         "NEXUS_XR",
         "NEXUS_X"
       ],
