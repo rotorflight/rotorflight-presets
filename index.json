@@ -145,6 +145,7 @@
       "etocii",
       "FDRC",
       "Hans Ouwehand",
+      "Paul Lesogor",
       "The Rotorflight Team"
     ],
     "keywords": [
@@ -184,6 +185,7 @@
       "FLYDRAGON_V2_2",
       "FLYDRAGONF722_V2",
       "FLYDRAGONF722_V2_2",
+      "GOOSKY_F701",
       "NEXUS_F7",
       "NEXUS_X",
       "NEXUS_XR",
@@ -334,6 +336,30 @@
         "Light"
       ],
       "author": "Hans Ouwehand",
+      "priority": 0,
+      "force_options_review": true
+    },
+    {
+      "fullPath": "presets/Hans/remap/bufferpacks/GOOSKY_F701.txt",
+      "hash": "2b35d0023c0a439104dd3ae58b97563d4fddbb0600c6e690f69f9c8fc442ca98",
+      "title": "Servo 5: PWM, Servo, Glow driver, Capacitor, Buffer pack, Light ctrlr, retractable landing gear",
+      "firmware_version": [
+        "4.5",
+        "4.6"
+      ],
+      "board_name": [
+        "GOOSKY_F701"
+      ],
+      "category": "REMAPPING",
+      "status": "OFFICIAL",
+      "keywords": [
+        "Servo 5",
+        "Bufferpack",
+        "PWM output",
+        "Glow driver",
+        "Light"
+      ],
+      "author": "Paul Lesogor",
       "priority": 0,
       "force_options_review": true
     },
@@ -724,7 +750,7 @@
     },
     {
       "fullPath": "presets/Hans/setup/esc telemetry/Nexus_X_XR-Vantac_007/escape32_AM32-telemetry.txt",
-      "hash": "c9791d38cf2bfc24ae2e9d2254b96568df5711bcf76d8eb8f1eee4ebf0790865",
+      "hash": "a27c68c25467f13f9ca89d58b7e0a122e14bf9b1df85cae4a284876856420790",
       "title": "Escape32/AM32 telemetry setup",
       "firmware_version": [
         "4.5",
@@ -733,7 +759,8 @@
       "board_name": [
         "VANTAC_RF007",
         "NEXUS_X",
-        "NEXUS_XR"
+        "NEXUS_XR",
+        "GOOSKY_F701"
       ],
       "category": "SETUP",
       "status": "EXPERIMENTAL",
@@ -745,7 +772,7 @@
     },
     {
       "fullPath": "presets/Hans/setup/esc telemetry/Nexus_X_XR-Vantac_007/Hobbywing_V4-telemetry.txt",
-      "hash": "b191683910bfe648b8d637d77d68f5fc3b747265d4473fff1eb69b186f33340b",
+      "hash": "1c965e32ed09f76880af026a71e4d0c1ebf45028957640b8ae7211dfd240ce24",
       "title": "Hobbywing V4 telemetry setup",
       "firmware_version": [
         "4.5",
@@ -754,7 +781,8 @@
       "board_name": [
         "VANTAC_RF007",
         "NEXUS_X",
-        "NEXUS_XR"
+        "NEXUS_XR",
+        "GOOSKY_F701"
       ],
       "category": "SETUP",
       "status": "EXPERIMENTAL",
@@ -766,7 +794,7 @@
     },
     {
       "fullPath": "presets/Hans/setup/esc telemetry/Nexus_X_XR-Vantac_007/Hobbywing_V5-telemetry.txt",
-      "hash": "fe65aa8897883d285b6d7ae3f2b9de3225343894f83d2f6e127099dfc1006f17",
+      "hash": "fea472fe6e6876f059e9cfc5b89bea123a5fc8ed024d93cb37c2b6c9401c87fa",
       "title": "Hobbywing V5 telemetry setup",
       "firmware_version": [
         "4.5",
@@ -775,7 +803,8 @@
       "board_name": [
         "VANTAC_RF007",
         "NEXUS_X",
-        "NEXUS_XR"
+        "NEXUS_XR",
+        "GOOSKY_F701"
       ],
       "category": "SETUP",
       "status": "EXPERIMENTAL",
@@ -787,7 +816,7 @@
     },
     {
       "fullPath": "presets/Hans/setup/esc telemetry/Nexus_X_XR-Vantac_007/Scorpion-telemetry.txt",
-      "hash": "4eb81fc8d692482fcc71d4066d109d602f082eb9749414a2a2f8f1126711e199",
+      "hash": "2e6fff5fda1e0eac99e6487a2c48414790d61ea0d0704470996fae4ed018e4d5",
       "title": "Scorpion telemetry setup",
       "firmware_version": [
         "4.5",
@@ -796,7 +825,8 @@
       "board_name": [
         "VANTAC_RF007",
         "NEXUS_X",
-        "NEXUS_XR"
+        "NEXUS_XR",
+        "GOOSKY_F701"
       ],
       "category": "SETUP",
       "status": "EXPERIMENTAL",
@@ -808,7 +838,7 @@
     },
     {
       "fullPath": "presets/Hans/setup/esc telemetry/Nexus_X_XR-Vantac_007/XDfly-telemetry.txt",
-      "hash": "4cb63a4ef8a1aa5009b18536e6a3cd943eddc06e10fa0737d7bf102736d6cb1b",
+      "hash": "53ceaf89b0d8e5eb9094463de7a6be5500cb5518db6cafe9a70658ab0899037c",
       "title": "Xdfly telemetry setup",
       "firmware_version": [
         "4.5",
@@ -817,7 +847,8 @@
       "board_name": [
         "VANTAC_RF007",
         "NEXUS_X",
-        "NEXUS_XR"
+        "NEXUS_XR",
+        "GOOSKY_F701"
       ],
       "category": "SETUP",
       "status": "EXPERIMENTAL",
@@ -850,6 +881,27 @@
         "Motorized tail"
       ],
       "author": "Hans Ouwehand",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/Hans/setup/motorized-tail/GOOSKY_F701.txt",
+      "hash": "a973461d7686d4517990490754d1efd152ed5dfe41a9776fbad0b00d1fd6b4a6",
+      "title": "Set parameters motorized tail",
+      "firmware_version": [
+        "4.5",
+        "4.6"
+      ],
+      "board_name": [
+        "GOOSKY_F701"
+      ],
+      "category": "SETUP",
+      "status": "OFFICIAL",
+      "keywords": [
+        "Tail",
+        "Setup",
+        "Motorized tail"
+      ],
+      "author": "Paul Lesogor",
       "priority": 0
     },
     {

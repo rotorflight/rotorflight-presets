@@ -13,7 +13,7 @@
 #$ DESCRIPTION: Enables ESC telemetry from a Escape32/AM32 esc. Make sure you have selected kiss auto as telemetry protocol in the Escape32/AM32 esc.
 #$ DESCRIPTION: Make sure to use only signal wire from a telemetry pad. Connect the telemetry signal wire to the tlm port.
 #$ PRIORITY: 0
-
+#$ BOARD_NAME: GOOSKY_F701
 
 feature ESC_SENSOR
 feature FREQ_SENSOR
