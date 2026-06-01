@@ -5,7 +5,7 @@
 
 
 #$ CATEGORY: SETUP
-#$ STATUS: EXPERIMENTAL
+#$ STATUS: COMMUNITY
 #$ KEYWORDS: ESC Telemetry, XDfly
 #$ AUTHOR: Hans Ouwehand
 #$ DESCRIPTION: Enables ESC telemetry from the XDfly esc. 

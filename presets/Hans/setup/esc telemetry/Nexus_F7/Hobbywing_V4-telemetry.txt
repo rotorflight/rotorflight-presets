@@ -5,7 +5,7 @@
 
 
 #$ CATEGORY: SETUP
-#$ STATUS: EXPERIMENTAL
+#$ STATUS: COMMUNITY
 #$ KEYWORDS: ESC Telemetry
 #$ AUTHOR: Hans Ouwehand
 #$ DESCRIPTION: Enables ESC telemetry from the Hobbywing V4 esc. Make sure you have the latest hobbywing firmware but not the vbar hobbywing firmware.
