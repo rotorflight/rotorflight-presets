@@ -15,14 +15,14 @@
 
 #$ OPTION_GROUP BEGIN: (EXCLUSIVE) Exclusive Option Group
     #$ OPTION BEGIN (CHECKED): 1500us (Std)
-    servo 1 1500 -500 500 500 500 333 0 2
-    servo 2 1500 -500 500 500 500 333 0 3
-    servo 3 1500 -500 500 500 500 333 0 2
+    servo 1 1500 -700 700 500 500 333 0 2
+    servo 2 1500 -700 700 500 500 333 0 3
+    servo 3 1500 -700 700 500 500 333 0 2
     #$ OPTION END
-    #$ OPTION BEGIN (UNCHECKED): 750us (Narrow Band)
-    servo 1 750 -250 250 250 250 333 0 2
-    servo 2 750 -250 250 250 250 333 0 3
-    servo 3 750 -250 250 250 250 333 0 2
+    #$ OPTION BEGIN (UNCHECKED): 760us (Narrow Band)
+    servo 1 750 -350 350 250 250 333 0 2
+    servo 2 750 -350 350 250 250 333 0 3
+    servo 3 750 -350 350 250 250 333 0 2
     #$ OPTION END
     #$ OPTION BEGIN (UNCHECKED): 300us (SSR)
     servo 1 300 -240 240 190 190 500 0 2
