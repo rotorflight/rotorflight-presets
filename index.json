@@ -481,7 +481,7 @@
     },
     {
       "fullPath": "presets/Hans/setup/esc telemetry/Flydragon_pro/Hobbywing_V4-telemetry.txt",
-      "hash": "7f22107def36b769f5fbd1680e51116dd261b63cbcd02388226b86dcb6921ebc",
+      "hash": "9779802bd4b3f4976bcba33104edd2cbac49f697d14f8f408a00f71df79c839d",
       "title": "Hobbywing V4 telemetry setup",
       "firmware_version": [
         "4.5",
@@ -492,7 +492,7 @@
         "FLYDRAGON_PRO42688"
       ],
       "category": "SETUP",
-      "status": "EXPERIMENTAL",
+      "status": "COMMUNITY",
       "keywords": [
         "ESC Telemetry"
       ],
@@ -502,7 +502,7 @@
     },
     {
       "fullPath": "presets/Hans/setup/esc telemetry/Flydragon_pro/Hobbywing_V5-telemetry.txt",
-      "hash": "5b2fbd2035b4d35aa45291a82a9422a5c45ac35a7bff6624160b2ddfee254fc0",
+      "hash": "fd9771e267e42ced2622393f15b2db46bde272adab1c492c4480d07e5624c922",
       "title": "Hobbywing V5 telemetry setup",
       "firmware_version": [
         "4.5",
@@ -513,7 +513,7 @@
         "FLYDRAGON_PRO42688"
       ],
       "category": "SETUP",
-      "status": "EXPERIMENTAL",
+      "status": "COMMUNITY",
       "keywords": [
         "ESC Telemetry"
       ],
@@ -544,7 +544,7 @@
     },
     {
       "fullPath": "presets/Hans/setup/esc telemetry/Flydragon_pro/Xdfly-telemetry.txt",
-      "hash": "4d7f2021ad7ad0bb52296534d5e8eb078669b4c6a6e67e8d0ee68e74ee184c8b",
+      "hash": "d6ddbd1575b403ddfa55d08bc7007fd3108ca575533b71d75ee49c70771f19ee",
       "title": "Xdfly telemetry setup",
       "firmware_version": [
         "4.5",
@@ -555,7 +555,7 @@
         "FLYDRAGON_PRO42688"
       ],
       "category": "SETUP",
-      "status": "EXPERIMENTAL",
+      "status": "COMMUNITY",
       "keywords": [
         "ESC Telemetry",
         "XDfly"
@@ -565,7 +565,7 @@
     },
     {
       "fullPath": "presets/Hans/setup/esc telemetry/Flydragon_V2_V2.2/Hobbywing_V4-telemetry.txt",
-      "hash": "dfb938d883bcec573bf01de0af9bc6c0402d7651ffe50305b723023322298965",
+      "hash": "81758a9c5fb8db126e29d589cc6feb489d9cd57fb517a962582485e20d9e812f",
       "title": "Hobbywing V4 telemetry setup",
       "firmware_version": [
         "4.5",
@@ -576,7 +576,7 @@
         "FLYDRAGON_V2_2"
       ],
       "category": "SETUP",
-      "status": "EXPERIMENTAL",
+      "status": "COMMUNITY",
       "keywords": [
         "ESC Telemetry"
       ],
@@ -586,7 +586,7 @@
     },
     {
       "fullPath": "presets/Hans/setup/esc telemetry/Flydragon_V2_V2.2/Hobbywing_V5-telemetry.txt",
-      "hash": "ff999b0529a94b577a7cfee198fe6fdb8b57231f956ac5cd16c3ebc06e5f2ee9",
+      "hash": "02338e93087cc8c937e63c70171c7fd5447bcb0784a9cd85c665b88d6c707229",
       "title": "Hobbywing V5 telemetry setup",
       "firmware_version": [
         "4.5",
@@ -597,7 +597,7 @@
         "FLYDRAGON_V2_2"
       ],
       "category": "SETUP",
-      "status": "EXPERIMENTAL",
+      "status": "COMMUNITY",
       "keywords": [
         "ESC Telemetry"
       ],
@@ -628,7 +628,7 @@
     },
     {
       "fullPath": "presets/Hans/setup/esc telemetry/Flydragon_V2_V2.2/Xdfly-telemetry.txt",
-      "hash": "33eeb234aa115f203eb12b0cd02948d88e85c7ac061c683cc17b9a81bde79409",
+      "hash": "a6047b3c021e20702df9824cbc8b7af40203920beba750ab716d224d0babfaa2",
       "title": "Xdfly telemetry setup",
       "firmware_version": [
         "4.5",
@@ -639,7 +639,7 @@
         "FLYDRAGON_V2_2"
       ],
       "category": "SETUP",
-      "status": "EXPERIMENTAL",
+      "status": "COMMUNITY",
       "keywords": [
         "ESC Telemetry",
         "XDfly"
@@ -670,7 +670,7 @@
     },
     {
       "fullPath": "presets/Hans/setup/esc telemetry/Nexus_F7/Hobbywing_V4-telemetry.txt",
-      "hash": "1593720463b189841f76b93ad341334415f201af76f4e050e1e3df6626e06b7b",
+      "hash": "c4e586acc875315f0c4bb8aeae9257f48a6faad451cf006f848b43121387b743",
       "title": "Hobbywing V4 telemetry setup",
       "firmware_version": [
         "4.5",
@@ -680,7 +680,7 @@
         "NEXUS_F7"
       ],
       "category": "SETUP",
-      "status": "EXPERIMENTAL",
+      "status": "COMMUNITY",
       "keywords": [
         "ESC Telemetry"
       ],
@@ -690,7 +690,7 @@
     },
     {
       "fullPath": "presets/Hans/setup/esc telemetry/Nexus_F7/Hobbywing_V5-telemetry.txt",
-      "hash": "ae739351c2712797a8df739c42ea1cafe7c97d9a634b8c227ac187c658506894",
+      "hash": "c1a51ed4c6676dac19427d3c00a370f2c3d7ee239cc8b22f2791aab75f43a909",
       "title": "Hobbywing V5 telemetry setup",
       "firmware_version": [
         "4.5",
@@ -700,7 +700,7 @@
         "NEXUS_F7"
       ],
       "category": "SETUP",
-      "status": "EXPERIMENTAL",
+      "status": "COMMUNITY",
       "keywords": [
         "ESC Telemetry"
       ],
@@ -730,7 +730,7 @@
     },
     {
       "fullPath": "presets/Hans/setup/esc telemetry/Nexus_F7/Xdfly-telemetry.txt",
-      "hash": "a86564f284e6670a0cecfd7793c71f24c8d40fa013423baff098deef4c0867d8",
+      "hash": "9ff91fdcc078482ffa8fe4044c9ae1808b3d5890f4a40b56dea1665befee2e1a",
       "title": "Xdfly telemetry setup",
       "firmware_version": [
         "4.5",
@@ -740,7 +740,7 @@
         "NEXUS_F7"
       ],
       "category": "SETUP",
-      "status": "EXPERIMENTAL",
+      "status": "COMMUNITY",
       "keywords": [
         "ESC Telemetry",
         "XDfly"
@@ -750,7 +750,7 @@
     },
     {
       "fullPath": "presets/Hans/setup/esc telemetry/Nexus_X_XR-Vantac_007/escape32_AM32-telemetry.txt",
-      "hash": "a27c68c25467f13f9ca89d58b7e0a122e14bf9b1df85cae4a284876856420790",
+      "hash": "2cba2345fa6f32e8d15371bdba63afa226eb44555f6a59e486daa7b0799769f1",
       "title": "Escape32/AM32 telemetry setup",
       "firmware_version": [
         "4.5",
@@ -763,7 +763,7 @@
         "GOOSKY_F701"
       ],
       "category": "SETUP",
-      "status": "EXPERIMENTAL",
+      "status": "COMMUNITY",
       "keywords": [
         "ESC Telemetry"
       ],
@@ -772,7 +772,7 @@
     },
     {
       "fullPath": "presets/Hans/setup/esc telemetry/Nexus_X_XR-Vantac_007/Hobbywing_V4-telemetry.txt",
-      "hash": "1c965e32ed09f76880af026a71e4d0c1ebf45028957640b8ae7211dfd240ce24",
+      "hash": "b870620b1695f9f9ecb3abc2e259902166e0aeaa26b6bded2d0673ed0b50ba64",
       "title": "Hobbywing V4 telemetry setup",
       "firmware_version": [
         "4.5",
@@ -785,7 +785,7 @@
         "GOOSKY_F701"
       ],
       "category": "SETUP",
-      "status": "EXPERIMENTAL",
+      "status": "COMMUNITY",
       "keywords": [
         "ESC Telemetry"
       ],
@@ -794,7 +794,7 @@
     },
     {
       "fullPath": "presets/Hans/setup/esc telemetry/Nexus_X_XR-Vantac_007/Hobbywing_V5-telemetry.txt",
-      "hash": "fea472fe6e6876f059e9cfc5b89bea123a5fc8ed024d93cb37c2b6c9401c87fa",
+      "hash": "5678afd152c8d66a0bcb59b9eaffc4b4834f54d17e388b7b81277d63ba32c2f2",
       "title": "Hobbywing V5 telemetry setup",
       "firmware_version": [
         "4.5",
@@ -807,7 +807,7 @@
         "GOOSKY_F701"
       ],
       "category": "SETUP",
-      "status": "EXPERIMENTAL",
+      "status": "COMMUNITY",
       "keywords": [
         "ESC Telemetry"
       ],
@@ -816,7 +816,7 @@
     },
     {
       "fullPath": "presets/Hans/setup/esc telemetry/Nexus_X_XR-Vantac_007/Scorpion-telemetry.txt",
-      "hash": "2e6fff5fda1e0eac99e6487a2c48414790d61ea0d0704470996fae4ed018e4d5",
+      "hash": "85ac2b55e266051640cb6565213494cad4c10a5c73692c93585959afb8b8f15f",
       "title": "Scorpion telemetry setup",
       "firmware_version": [
         "4.5",
@@ -829,7 +829,7 @@
         "GOOSKY_F701"
       ],
       "category": "SETUP",
-      "status": "EXPERIMENTAL",
+      "status": "COMMUNITY",
       "keywords": [
         "ESC Telemetry"
       ],
@@ -838,7 +838,7 @@
     },
     {
       "fullPath": "presets/Hans/setup/esc telemetry/Nexus_X_XR-Vantac_007/XDfly-telemetry.txt",
-      "hash": "53ceaf89b0d8e5eb9094463de7a6be5500cb5518db6cafe9a70658ab0899037c",
+      "hash": "11863b2f50557a3ccf77f15cc2428eef1d5bca9f5298520015fb81c447ce41f0",
       "title": "Xdfly telemetry setup",
       "firmware_version": [
         "4.5",
@@ -851,7 +851,7 @@
         "GOOSKY_F701"
       ],
       "category": "SETUP",
-      "status": "EXPERIMENTAL",
+      "status": "COMMUNITY",
       "keywords": [
         "ESC Telemetry",
         "XDfly"

@@ -7,7 +7,7 @@
 #$ BOARD_NAME: GOOSKY_F701
 
 #$ CATEGORY: SETUP
-#$ STATUS: EXPERIMENTAL
+#$ STATUS: COMMUNITY
 #$ KEYWORDS: ESC Telemetry
 #$ AUTHOR: Hans Ouwehand
 #$ DESCRIPTION: Enables ESC telemetry from the scorpion esc. Make sure you have selected unsollicited as telemetry protocol in the Scorpion esc.

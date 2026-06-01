@@ -7,7 +7,7 @@
 
 
 #$ CATEGORY: SETUP
-#$ STATUS: EXPERIMENTAL
+#$ STATUS: COMMUNITY
 #$ KEYWORDS: ESC Telemetry
 #$ AUTHOR: Hans Ouwehand
 #$ DESCRIPTION: Enables ESC telemetry from a Escape32/AM32 esc. Make sure you have selected kiss auto as telemetry protocol in the Escape32/AM32 esc.
