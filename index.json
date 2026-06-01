@@ -195,7 +195,7 @@
   "presets": [
     {
       "fullPath": "presets/AdTur/setup/2.2/ServoSetup.txt",
-      "hash": "5e2c1ed1fea19449147eec7b112c5aa855a456a58b45535e3ee35b8754fed39a",
+      "hash": "cd07bd628aa5872b6508c4465bc4d28968abfd72c1f70ffe2f3b03e37a352360",
       "title": "Cyclic Servo Setup 1500us-760us-300us",
       "firmware_version": [
         "4.5",
@@ -212,7 +212,7 @@
     },
     {
       "fullPath": "presets/AdTur/setup/2.2/TailServoSetup.txt",
-      "hash": "3fcd80d782be97c0c135bf0fbbd1541f86835083c3cb7e316ec947d37759ad43",
+      "hash": "34eb1471c52a16cb1703c3036fdacf8f32080b92f3042cb772352bde8a137208",
       "title": "Tail Servo Setup 1500us-760us-300us",
       "firmware_version": [
         "4.5",
