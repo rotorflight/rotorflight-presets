@@ -8,9 +8,7 @@
 #$ STATUS: EXPERIMENTAL
 #$ KEYWORDS: Stratos 200
 #$ AUTHOR: Rotorflight
-#$ DESCRIPTION: Enables ESC telemetry from the scorpion esc. Make sure you have selected unsollicited as telemetry protocol in the Scorpion esc.
-#$ DESCRIPTION: Choose the port where you have connected the esc telemetry wire
-#$ DESCRIPTION: Make sure to use only signal from the pc port and eventually ground. Don't connect the plus wire.
+#$ DESCRIPTION: test
 #$ PRIORITY: 0
 #$ FORCE_OPTIONS_REVIEW: TRUE
 
@@ -55,7 +53,7 @@
     # adjfunc
     adjfunc 0 2 255 1500 1500 1 900 2015 1500 1500 0 1 3
     adjfunc 1 1 255 1500 1500 1 875 2000 1500 1500 0 1 3
-    adjfunc 2 82 255 1500 1500 3 1000 2000 1500 1500 0 1 3
+    
 
     # master
     set gyro_lpf1_static_hz = 200
@@ -69,7 +67,7 @@
     set motor_poles = 24,12,0,0
     set align_board_yaw = 180
     set bat_profile = 1
-    set bat_capacity = 650,750,1100,0,0,0
+    set bat_capacity = 650,0,0,0,0,0
     set current_meter = ESC
     set battery_meter = ESC
     set battery_cell_count = 4
