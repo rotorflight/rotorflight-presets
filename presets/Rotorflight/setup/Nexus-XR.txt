@@ -255,10 +255,8 @@
     set gov_collective_curve = 20
     set gov_dyn_min_throttle = 20
     #$ OPTION END
-
     #$ OPTION BEGIN (CHECKED): Profile 2 5000 rpm
     profile 1
-
     # profile 1
     set profile_name = P2
     set pid_mode = 3
@@ -363,10 +361,8 @@
     set gov_collective_curve = 20
     set gov_dyn_min_throttle = 20
     #$ OPTION END
-
     #$ OPTION BEGIN (CHECKED): Profile 3 5000 rpm
     profile 2
-
     # profile 2
     set profile_name = P3
     set pid_mode = 3
@@ -476,7 +472,6 @@
 #$ OPTION_GROUP BEGIN: Rate profiles
     #$ OPTION BEGIN (CHECKED): Rate 1 
     rateprofile 0
-
     # rateprofile 0
     set rates_type = ROTORFLIGHT
     set roll_rc_rate = 70
@@ -510,7 +505,6 @@
     set yaw_dynamic_deadband_filter = 60
     set yaw_dynamic_deadband_cutoff = 50
     #$ OPTION END
-
     #$ OPTION BEGIN (CHECKED): Rate 2
     # rateprofile 1
     set rates_type = ROTORFLIGHT
@@ -545,10 +539,8 @@
     set yaw_dynamic_deadband_filter = 60
     set yaw_dynamic_deadband_cutoff = 50
     #$ OPTION END
-
     #$ OPTION BEGIN (CHECKED): Rate 3
     rateprofile 2
-
     # rateprofile 2
     set rateprofile_name = -
     set rates_type = ROTORFLIGHT
