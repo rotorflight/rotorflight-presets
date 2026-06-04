@@ -1039,26 +1039,23 @@
       "force_options_review": true
     },
     {
-      "fullPath": "presets/Rotorflight/setup/Vantac_RF007_Nexus-X-XR.txt",
-      "hash": "ba5d5c868f39c80096d173b23c9a17a88a87bcb180ded494144fba8e310519e2",
-      "title": "Stratos 200",
+      "fullPath": "presets/Rotorflight/setup/Nexus-XR.txt",
+      "hash": "705a4ccb014f31f96e944a999b0a563f7995767224ceaa56e0ad17161c1cddd0",
+      "title": "Stratos 200 setup and tune (4S)",
       "firmware_version": [
         "4.6"
       ],
       "board_name": [
-        "VANTAC_RF007",
-        "NEXUS_XR",
-        "NEXUS_X"
+        "NEXUS_XR"
       ],
       "category": "SETUP",
       "status": "EXPERIMENTAL",
       "keywords": [
-        "Tail",
-        "Setup",
-        "Motorized tail"
+        "Stratos 200"
       ],
-      "author": "Hans Ouwehand",
-      "priority": 0
+      "author": "Rotorflight",
+      "priority": 0,
+      "force_options_review": true
     }
   ]
 }
