@@ -146,6 +146,7 @@
       "FDRC",
       "Hans Ouwehand",
       "Paul Lesogor",
+      "Rotorflight",
       "The Rotorflight Team"
     ],
     "keywords": [
@@ -172,6 +173,7 @@
       "Servo 5",
       "Servos",
       "Setup",
+      "Stratos 200",
       "Tail",
       "Telemetry",
       "TUNING",
@@ -1015,6 +1017,47 @@
         "motorized tail"
       ],
       "author": "The Rotorflight Team",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/Rotorflight/setup/Nexus-F7.txt",
+      "hash": "07013cf591547f913f8d3c0cdaa0d9fecf9023b480976a00e9144066b3253812",
+      "title": "Stratos 200 setup and tune (4S)",
+      "firmware_version": [
+        "4.6"
+      ],
+      "board_name": [
+        "NEXUS_F7"
+      ],
+      "category": "SETUP",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "Stratos 200"
+      ],
+      "author": "Rotorflight",
+      "priority": 0,
+      "force_options_review": true
+    },
+    {
+      "fullPath": "presets/Rotorflight/setup/Vantac_RF007_Nexus-X-XR.txt",
+      "hash": "ba5d5c868f39c80096d173b23c9a17a88a87bcb180ded494144fba8e310519e2",
+      "title": "Stratos 200",
+      "firmware_version": [
+        "4.6"
+      ],
+      "board_name": [
+        "VANTAC_RF007",
+        "NEXUS_XR",
+        "NEXUS_X"
+      ],
+      "category": "SETUP",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "Tail",
+        "Setup",
+        "Motorized tail"
+      ],
+      "author": "Hans Ouwehand",
       "priority": 0
     }
   ]
