@@ -90,6 +90,8 @@
     set deadband = 2
     set yaw_deadband = 2
     set esc_sensor_protocol = HOBBYWINGV5
+    set esc_sensor_halfduplex = on
+    set esc_sensor_pinswap = on
     set gyro_rpm_notch_preset = 0
     set gyro_rpm_notch_min_hz = 40
     set gyro_rpm_notch_source_pitch = 10,11,12,13,14,21,0,0,0,0,0,0,0,0,0,0
