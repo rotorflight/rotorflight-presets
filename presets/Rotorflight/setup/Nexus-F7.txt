@@ -13,6 +13,7 @@
 #$ DESCRIPTION: Make sure to check if your collective calibration is on the same spot. It should be very close already.
 #$ PRIORITY: 0
 #$ FORCE_OPTIONS_REVIEW: TRUE
+#$ DISCUSSION: https://discord.com/channels/859480656135192579/1397679323514802186
 #$ WARNING: Make sure to calibrate Accelerometer. Check gyro direction and do your pre-flight checks!!!!
 
  
@@ -105,7 +106,7 @@
 #$ OPTION END
    
 
-#$ OPTION_GROUP BEGIN: (EXCLUSIVE) Choose dashboard (telemetry sensors)
+#$ OPTION_GROUP BEGIN: (EXCLUSIVE) Choose dashboard telemetry sensors
     #$ OPTION BEGIN (UNCHECKED): RF2 dashboards (Shmuely)
     set telemetry_sensors = 3,4,5,6,7,8,43,50,60,88,90,91,99,95,96,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
     #$ OPTION END

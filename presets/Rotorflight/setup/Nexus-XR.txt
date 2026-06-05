@@ -13,6 +13,7 @@
 #$ DESCRIPTION: Make sure to check if your collective calibration is on the same spot. It should be very close already.
 #$ PRIORITY: 0
 #$ FORCE_OPTIONS_REVIEW: TRUE
+#$ DISCUSSION: https://discord.com/channels/859480656135192579/1397679323514802186
 #$ WARNING: Make sure to calibrate Accelerometer. Check gyro direction and do your pre-flight checks!!!!
 
 #$ OPTION_GROUP BEGIN: Full setup except the options showed below
