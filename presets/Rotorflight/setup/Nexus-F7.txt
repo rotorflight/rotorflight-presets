@@ -12,8 +12,8 @@
 #$ PRIORITY: 0
 #$ FORCE_OPTIONS_REVIEW: TRUE
 
-
-#$ OPTION BEGIN (CHECKED): Full setup
+#$ OPTION_GROUP BEGIN: Full setup except the options showed below
+    #$ OPTION BEGIN (CHECKED): Full setup
     defaults nosave
     # resources
     resource MOTOR 2 B03
@@ -100,6 +100,7 @@
     set gyro_rpm_notch_q_yaw = 80,80,40,100,100,100,100,0,0,0,0,0,0,0,0,0
     set name = Stratos 200
     #$ OPTION END
+#$ OPTION_GROUP END    
 
 #$ OPTION_GROUP BEGIN: (EXCLUSIVE) Choose dashboard
     #$ OPTION BEGIN (UNCHECKED): RF2 dashboards (Shmuely)
@@ -107,6 +108,12 @@
     #$ OPTION END
     #$ OPTION BEGIN (UNCHECKED): Flylog dashboard
     set telemetry_sensors = 3,43,4,5,6,60,15,50,52,93,90,27,28,21,24,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+    #$ OPTION END
+    #$ OPTION BEGIN (UNCHECKED): Bob01 ETX-widgets
+    set telemetry_sensors = 3,4,5,6,60,15,50,93,27,28,8,7,46,23,89,1,90,91,95,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+    #$ OPTION END
+    #$ OPTION BEGIN (UNCHECKED): Bei Ke dashboard
+    set telemetry_sensors = 3,43,4,5,6,60,15,50,52,93,90,8,27,89,1,99,58,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
     #$ OPTION END
 #$ OPTION_GROUP END
 
