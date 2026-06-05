@@ -104,7 +104,7 @@
     #$ OPTION END
 #$ OPTION_GROUP END
 
-#$ OPTION_GROUP BEGIN: (EXCLUSIVE) Choose dashboard (telemetry sensors)
+#$ OPTION_GROUP BEGIN: (EXCLUSIVE) Choose dashboard telemetry sensors
     #$ OPTION BEGIN (UNCHECKED): RF2 dashboards (Shmuely)
     set telemetry_sensors = 3,4,5,6,7,8,43,50,60,88,90,91,99,95,96,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
     #$ OPTION END
