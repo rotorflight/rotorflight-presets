@@ -8,9 +8,12 @@
 #$ STATUS: EXPERIMENTAL
 #$ KEYWORDS: Stratos 200
 #$ AUTHOR: Rotorflight
-#$ DESCRIPTION: test
+#$ DESCRIPTION: Preset for the Xlpower stratos 200. It can be used to fully setup your stratos 200 and used with the tune developed by ArchieRC and HAQ. 
+#$ DESCRIPTION: After loading the file make sure to adjust servo center so the servo arm is 90 degree. This should give you also 0 collective when folding blades.
+#$ DESCRIPTION: Make sure to check if your collective calibration is on the same spot. It should be very close already.
 #$ PRIORITY: 0
 #$ FORCE_OPTIONS_REVIEW: TRUE
+#$ WARNING: Make sure to calibrate Accelerometer. Check gyro direction and do your pre-flight checks!!!!
 
  
 #$ OPTION BEGIN (CHECKED): Full setup except the options showed below
