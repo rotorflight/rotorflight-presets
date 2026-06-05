@@ -12,8 +12,8 @@
 #$ PRIORITY: 0
 #$ FORCE_OPTIONS_REVIEW: TRUE
 
-#$ OPTION_GROUP BEGIN: Full setup except the options showed below
-    #$ OPTION BEGIN (CHECKED): Full setup
+ 
+#$ OPTION BEGIN (CHECKED): Full setup except the options showed below
     defaults nosave
     # resources
     resource MOTOR 2 B03
@@ -99,8 +99,8 @@
     set gyro_rpm_notch_source_yaw = 10,11,12,13,14,21,22,0,0,0,0,0,0,0,0,0
     set gyro_rpm_notch_q_yaw = 80,80,40,100,100,100,100,0,0,0,0,0,0,0,0,0
     set name = Stratos 200
-    #$ OPTION END
-#$ OPTION_GROUP END    
+#$ OPTION END
+   
 
 #$ OPTION_GROUP BEGIN: (EXCLUSIVE) Choose dashboard
     #$ OPTION BEGIN (UNCHECKED): RF2 dashboards (Shmuely)
@@ -263,6 +263,7 @@
     set gov_collective_curve = 20
     set gov_dyn_min_throttle = 20
     #$ OPTION END
+
     #$ OPTION BEGIN (CHECKED): Profile 2 5000 rpm
     profile 1
     # profile 1
@@ -369,6 +370,7 @@
     set gov_collective_curve = 20
     set gov_dyn_min_throttle = 20
     #$ OPTION END
+
     #$ OPTION BEGIN (CHECKED): Profile 3 5000 rpm
     profile 2
     # profile 2
@@ -513,6 +515,7 @@
     set yaw_dynamic_deadband_filter = 60
     set yaw_dynamic_deadband_cutoff = 50
     #$ OPTION END
+
     #$ OPTION BEGIN (CHECKED): Rate 2
     # rateprofile 1
     set rates_type = ROTORFLIGHT
@@ -547,6 +550,7 @@
     set yaw_dynamic_deadband_filter = 60
     set yaw_dynamic_deadband_cutoff = 50
     #$ OPTION END
+
     #$ OPTION BEGIN (CHECKED): Rate 3
     rateprofile 2
     # rateprofile 2
