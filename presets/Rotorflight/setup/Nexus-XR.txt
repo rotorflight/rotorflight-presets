@@ -372,7 +372,8 @@
     set gov_collective_curve = 20
     set gov_dyn_min_throttle = 20
     #$ OPTION END
-    #$ OPTION BEGIN (CHECKED): Profile 3 5000 rpm
+
+    #$ OPTION BEGIN (CHECKED): Profile 3 5600 rpm
     profile 2
     # profile 2
     set profile_name = P3

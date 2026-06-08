@@ -268,7 +268,7 @@
     set gov_dyn_min_throttle = 20
     #$ OPTION END
 
-    #$ OPTION BEGIN (CHECKED): Profile 2 5000 rpm
+    #$ OPTION BEGIN (CHECKED): Profile 2 5600 rpm
     profile 1
     # profile 1
     set profile_name = P2
