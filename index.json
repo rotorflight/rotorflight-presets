@@ -1021,7 +1021,7 @@
     },
     {
       "fullPath": "presets/Rotorflight/setup/Nexus-F7.txt",
-      "hash": "624eec6c28cde92bcb0803fa1a7949c192c329a46e57f4885fea31d166d6d1ff",
+      "hash": "6555c8ed7669717d562b41340f4bd67266930e2c9d4d6d0295d8df2beb0324c2",
       "title": "Stratos 200 setup and tune (4S)",
       "firmware_version": [
         "4.6"
@@ -1040,7 +1040,7 @@
     },
     {
       "fullPath": "presets/Rotorflight/setup/Nexus-XR.txt",
-      "hash": "3de63bf08091c2787fb0f0154c0f97b6aa126e03bceb1b82bdb8bec696162955",
+      "hash": "3c1565b32637538c15c7aa9c288cf3a5203998f545ddd353f45d5f248b382628",
       "title": "Stratos 200 setup and tune (4S)",
       "firmware_version": [
         "4.6"
