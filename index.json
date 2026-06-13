@@ -1021,13 +1021,14 @@
     },
     {
       "fullPath": "presets/Rotorflight/setup/Flydragon-Pro.txt",
-      "hash": "ade05aa90141ee2e1bc5b05210637cf13365ca9c3c046820fb6ace94caea37d3",
+      "hash": "e1d17ecca4273d298dd687b44d888375ae04a615bf8791d54576b15f0ceedb01",
       "title": "Stratos 200 setup and tune (4S)",
       "firmware_version": [
         "4.6"
       ],
       "board_name": [
-        "NEXUS_XR"
+        "FLYDRAGON_PRO6000",
+        "FLYDRAGON_PRO42688"
       ],
       "category": "SETUP",
       "status": "OFFICIAL",
