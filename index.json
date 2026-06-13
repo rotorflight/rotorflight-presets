@@ -146,6 +146,7 @@
       "FDRC",
       "Hans Ouwehand",
       "Paul Lesogor",
+      "Rotorflight",
       "The Rotorflight Team"
     ],
     "keywords": [
@@ -172,6 +173,7 @@
       "Servo 5",
       "Servos",
       "Setup",
+      "Stratos 200",
       "Tail",
       "Telemetry",
       "TUNING",
@@ -1016,6 +1018,44 @@
       ],
       "author": "The Rotorflight Team",
       "priority": 0
+    },
+    {
+      "fullPath": "presets/Rotorflight/setup/Nexus-F7.txt",
+      "hash": "70ad056a9a1495c0c1d81cef405edc63763d0a369ea072aa0576b632596d50eb",
+      "title": "Stratos 200 setup and tune (4S)",
+      "firmware_version": [
+        "4.6"
+      ],
+      "board_name": [
+        "NEXUS_F7"
+      ],
+      "category": "SETUP",
+      "status": "OFFICIAL",
+      "keywords": [
+        "Stratos 200"
+      ],
+      "author": "Rotorflight",
+      "priority": 0,
+      "force_options_review": true
+    },
+    {
+      "fullPath": "presets/Rotorflight/setup/Nexus-XR.txt",
+      "hash": "15cd524b8f89eca537790e31a5f3ba70485512e93e29416892882fb7f4cb16a4",
+      "title": "Stratos 200 setup and tune (4S)",
+      "firmware_version": [
+        "4.6"
+      ],
+      "board_name": [
+        "NEXUS_XR"
+      ],
+      "category": "SETUP",
+      "status": "OFFICIAL",
+      "keywords": [
+        "Stratos 200"
+      ],
+      "author": "Rotorflight",
+      "priority": 0,
+      "force_options_review": true
     }
   ]
 }
