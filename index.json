@@ -1020,6 +1020,25 @@
       "priority": 0
     },
     {
+      "fullPath": "presets/Rotorflight/setup/Flydragon-Pro.txt",
+      "hash": "ade05aa90141ee2e1bc5b05210637cf13365ca9c3c046820fb6ace94caea37d3",
+      "title": "Stratos 200 setup and tune (4S)",
+      "firmware_version": [
+        "4.6"
+      ],
+      "board_name": [
+        "NEXUS_XR"
+      ],
+      "category": "SETUP",
+      "status": "OFFICIAL",
+      "keywords": [
+        "Stratos 200"
+      ],
+      "author": "Rotorflight",
+      "priority": 0,
+      "force_options_review": true
+    },
+    {
       "fullPath": "presets/Rotorflight/setup/Nexus-F7.txt",
       "hash": "70ad056a9a1495c0c1d81cef405edc63763d0a369ea072aa0576b632596d50eb",
       "title": "Stratos 200 setup and tune (4S)",
@@ -1047,6 +1066,25 @@
       ],
       "board_name": [
         "NEXUS_XR"
+      ],
+      "category": "SETUP",
+      "status": "OFFICIAL",
+      "keywords": [
+        "Stratos 200"
+      ],
+      "author": "Rotorflight",
+      "priority": 0,
+      "force_options_review": true
+    },
+    {
+      "fullPath": "presets/Rotorflight/setup/Vantac.txt",
+      "hash": "91b6c713aac79533f0600e4f03c07e429f8597f01bc1a2e84762ce9c6ab62613",
+      "title": "Stratos 200 setup and tune (4S)",
+      "firmware_version": [
+        "4.6"
+      ],
+      "board_name": [
+        "VANTAC_RF007"
       ],
       "category": "SETUP",
       "status": "OFFICIAL",
