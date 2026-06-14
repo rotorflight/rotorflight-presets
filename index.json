@@ -152,23 +152,33 @@
     "keywords": [
       "bec",
       "Bufferpack",
+      "Dashboards",
+      "Edgetx",
+      "ESC Telemetry",
+      "Ethos",
       "ext",
       "f.port",
       "filters",
       "fport",
       "Glow driver",
+      "Inflight tuning",
       "Light",
-      "motorized tail",
+      "Motorized tail",
       "PWM output",
+      "RC smoothing",
       "rpm-s rpm-e rpm",
       "s.bus",
       "sbus",
       "servo",
       "Servo 5",
       "Servos",
+      "Setup",
       "Stratos 200",
+      "Tail",
+      "Telemetry",
       "TUNING",
-      "voltage"
+      "voltage",
+      "XDfly"
     ],
     "board_name": [
       "FLYDRAGON_PRO42688",
@@ -432,6 +442,549 @@
       "force_options_review": true
     },
     {
+      "fullPath": "presets/Hans/setup/Basic setup for Edgetx.txt",
+      "hash": "b714e5c81d576e5fa2a3c321ba1edc04395cf4582ebdb0660219a69dd80ea1d9",
+      "title": "Set basic parameters for radio setup EdgeTX",
+      "firmware_version": [
+        "4.5",
+        "4.6"
+      ],
+      "category": "SETUP",
+      "status": "COMMUNITY",
+      "keywords": [
+        "Telemetry",
+        "Edgetx",
+        "Dashboards",
+        "Inflight tuning"
+      ],
+      "author": "Hans Ouwehand",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/Hans/setup/esc telemetry/Flydragon_pro/escape32_AM32-telemetry.txt",
+      "hash": "edf667ac045c9178f3e5cfbfd95efa33bbe4791eb083505fee9cda924eb81254",
+      "title": "Escape32/AM32 telemetry setup",
+      "firmware_version": [
+        "4.5",
+        "4.6"
+      ],
+      "board_name": [
+        "FLYDRAGON_PRO6000",
+        "FLYDRAGON_PRO42688"
+      ],
+      "category": "SETUP",
+      "status": "COMMUNITY",
+      "keywords": [
+        "ESC Telemetry"
+      ],
+      "author": "Hans Ouwehand",
+      "priority": 0,
+      "force_options_review": true
+    },
+    {
+      "fullPath": "presets/Hans/setup/esc telemetry/Flydragon_pro/Hobbywing_V4-telemetry.txt",
+      "hash": "9779802bd4b3f4976bcba33104edd2cbac49f697d14f8f408a00f71df79c839d",
+      "title": "Hobbywing V4 telemetry setup",
+      "firmware_version": [
+        "4.5",
+        "4.6"
+      ],
+      "board_name": [
+        "FLYDRAGON_PRO6000",
+        "FLYDRAGON_PRO42688"
+      ],
+      "category": "SETUP",
+      "status": "COMMUNITY",
+      "keywords": [
+        "ESC Telemetry"
+      ],
+      "author": "Hans Ouwehand",
+      "priority": 0,
+      "force_options_review": true
+    },
+    {
+      "fullPath": "presets/Hans/setup/esc telemetry/Flydragon_pro/Hobbywing_V5-telemetry.txt",
+      "hash": "fd9771e267e42ced2622393f15b2db46bde272adab1c492c4480d07e5624c922",
+      "title": "Hobbywing V5 telemetry setup",
+      "firmware_version": [
+        "4.5",
+        "4.6"
+      ],
+      "board_name": [
+        "FLYDRAGON_PRO6000",
+        "FLYDRAGON_PRO42688"
+      ],
+      "category": "SETUP",
+      "status": "COMMUNITY",
+      "keywords": [
+        "ESC Telemetry"
+      ],
+      "author": "Hans Ouwehand",
+      "priority": 0,
+      "force_options_review": true
+    },
+    {
+      "fullPath": "presets/Hans/setup/esc telemetry/Flydragon_pro/Scorpion-telemetry.txt",
+      "hash": "0d31bbd9af0fbcb89f90c10e021954b5db4053142460a1da230d76035b48eaa8",
+      "title": "Scorpion telemetry setup",
+      "firmware_version": [
+        "4.5",
+        "4.6"
+      ],
+      "board_name": [
+        "FLYDRAGON_PRO6000",
+        "FLYDRAGON_PRO42688"
+      ],
+      "category": "SETUP",
+      "status": "COMMUNITY",
+      "keywords": [
+        "ESC Telemetry"
+      ],
+      "author": "Hans Ouwehand",
+      "priority": 0,
+      "force_options_review": true
+    },
+    {
+      "fullPath": "presets/Hans/setup/esc telemetry/Flydragon_pro/Xdfly-telemetry.txt",
+      "hash": "d6ddbd1575b403ddfa55d08bc7007fd3108ca575533b71d75ee49c70771f19ee",
+      "title": "Xdfly telemetry setup",
+      "firmware_version": [
+        "4.5",
+        "4.6"
+      ],
+      "board_name": [
+        "FLYDRAGON_PRO6000",
+        "FLYDRAGON_PRO42688"
+      ],
+      "category": "SETUP",
+      "status": "COMMUNITY",
+      "keywords": [
+        "ESC Telemetry",
+        "XDfly"
+      ],
+      "author": "Hans Ouwehand",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/Hans/setup/esc telemetry/Flydragon_V2_V2.2/Hobbywing_V4-telemetry.txt",
+      "hash": "81758a9c5fb8db126e29d589cc6feb489d9cd57fb517a962582485e20d9e812f",
+      "title": "Hobbywing V4 telemetry setup",
+      "firmware_version": [
+        "4.5",
+        "4.6"
+      ],
+      "board_name": [
+        "FLYDRAGON_V2",
+        "FLYDRAGON_V2_2"
+      ],
+      "category": "SETUP",
+      "status": "COMMUNITY",
+      "keywords": [
+        "ESC Telemetry"
+      ],
+      "author": "Hans Ouwehand",
+      "priority": 0,
+      "force_options_review": true
+    },
+    {
+      "fullPath": "presets/Hans/setup/esc telemetry/Flydragon_V2_V2.2/Hobbywing_V5-telemetry.txt",
+      "hash": "02338e93087cc8c937e63c70171c7fd5447bcb0784a9cd85c665b88d6c707229",
+      "title": "Hobbywing V5 telemetry setup",
+      "firmware_version": [
+        "4.5",
+        "4.6"
+      ],
+      "board_name": [
+        "FLYDRAGON_V2",
+        "FLYDRAGON_V2_2"
+      ],
+      "category": "SETUP",
+      "status": "COMMUNITY",
+      "keywords": [
+        "ESC Telemetry"
+      ],
+      "author": "Hans Ouwehand",
+      "priority": 0,
+      "force_options_review": true
+    },
+    {
+      "fullPath": "presets/Hans/setup/esc telemetry/Flydragon_V2_V2.2/Scorpion-telemetry.txt",
+      "hash": "b81920c9f7f25355b0065d5015f5d1f616b8220837cadf13fba1784015df44b6",
+      "title": "Scorpion telemetry setup",
+      "firmware_version": [
+        "4.5",
+        "4.6"
+      ],
+      "board_name": [
+        "FLYDRAGON_V2",
+        "FLYDRAGON_V2_2"
+      ],
+      "category": "SETUP",
+      "status": "COMMUNITY",
+      "keywords": [
+        "ESC Telemetry"
+      ],
+      "author": "Hans Ouwehand",
+      "priority": 0,
+      "force_options_review": true
+    },
+    {
+      "fullPath": "presets/Hans/setup/esc telemetry/Flydragon_V2_V2.2/Xdfly-telemetry.txt",
+      "hash": "a6047b3c021e20702df9824cbc8b7af40203920beba750ab716d224d0babfaa2",
+      "title": "Xdfly telemetry setup",
+      "firmware_version": [
+        "4.5",
+        "4.6"
+      ],
+      "board_name": [
+        "FLYDRAGON_V2",
+        "FLYDRAGON_V2_2"
+      ],
+      "category": "SETUP",
+      "status": "COMMUNITY",
+      "keywords": [
+        "ESC Telemetry",
+        "XDfly"
+      ],
+      "author": "Hans Ouwehand",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/Hans/setup/esc telemetry/Nexus_F7/escape32_AM32-telemetry.txt",
+      "hash": "55ef17e6e8370a12ac08c5b4774dcc47477250466c82ccc6c08160c6759a09be",
+      "title": "Escape32/AM32 telemetry setup",
+      "firmware_version": [
+        "4.5",
+        "4.6"
+      ],
+      "board_name": [
+        "FLYDRAGON_PRO6000",
+        "FLYDRAGON_PRO42688"
+      ],
+      "category": "SETUP",
+      "status": "COMMUNITY",
+      "keywords": [
+        "ESC Telemetry"
+      ],
+      "author": "Hans Ouwehand",
+      "priority": 0,
+      "force_options_review": true
+    },
+    {
+      "fullPath": "presets/Hans/setup/esc telemetry/Nexus_F7/Hobbywing_V4-telemetry.txt",
+      "hash": "c4e586acc875315f0c4bb8aeae9257f48a6faad451cf006f848b43121387b743",
+      "title": "Hobbywing V4 telemetry setup",
+      "firmware_version": [
+        "4.5",
+        "4.6"
+      ],
+      "board_name": [
+        "NEXUS_F7"
+      ],
+      "category": "SETUP",
+      "status": "COMMUNITY",
+      "keywords": [
+        "ESC Telemetry"
+      ],
+      "author": "Hans Ouwehand",
+      "priority": 0,
+      "force_options_review": true
+    },
+    {
+      "fullPath": "presets/Hans/setup/esc telemetry/Nexus_F7/Hobbywing_V5-telemetry.txt",
+      "hash": "c1a51ed4c6676dac19427d3c00a370f2c3d7ee239cc8b22f2791aab75f43a909",
+      "title": "Hobbywing V5 telemetry setup",
+      "firmware_version": [
+        "4.5",
+        "4.6"
+      ],
+      "board_name": [
+        "NEXUS_F7"
+      ],
+      "category": "SETUP",
+      "status": "COMMUNITY",
+      "keywords": [
+        "ESC Telemetry"
+      ],
+      "author": "Hans Ouwehand",
+      "priority": 0,
+      "force_options_review": true
+    },
+    {
+      "fullPath": "presets/Hans/setup/esc telemetry/Nexus_F7/Scorpion-telemetry.txt",
+      "hash": "8f7d0136fbbdaee3deebaa655f1b836a7b12b89d2320bdc8ae8dae27bfa18643",
+      "title": "Scorpion telemetry setup",
+      "firmware_version": [
+        "4.5",
+        "4.6"
+      ],
+      "board_name": [
+        "NEXUS_F7"
+      ],
+      "category": "SETUP",
+      "status": "COMMUNITY",
+      "keywords": [
+        "ESC Telemetry"
+      ],
+      "author": "Hans Ouwehand",
+      "priority": 0,
+      "force_options_review": true
+    },
+    {
+      "fullPath": "presets/Hans/setup/esc telemetry/Nexus_F7/Xdfly-telemetry.txt",
+      "hash": "9ff91fdcc078482ffa8fe4044c9ae1808b3d5890f4a40b56dea1665befee2e1a",
+      "title": "Xdfly telemetry setup",
+      "firmware_version": [
+        "4.5",
+        "4.6"
+      ],
+      "board_name": [
+        "NEXUS_F7"
+      ],
+      "category": "SETUP",
+      "status": "COMMUNITY",
+      "keywords": [
+        "ESC Telemetry",
+        "XDfly"
+      ],
+      "author": "Hans Ouwehand",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/Hans/setup/esc telemetry/Nexus_X_XR-Vantac_007/escape32_AM32-telemetry.txt",
+      "hash": "2cba2345fa6f32e8d15371bdba63afa226eb44555f6a59e486daa7b0799769f1",
+      "title": "Escape32/AM32 telemetry setup",
+      "firmware_version": [
+        "4.5",
+        "4.6"
+      ],
+      "board_name": [
+        "VANTAC_RF007",
+        "NEXUS_X",
+        "NEXUS_XR",
+        "GOOSKY_F701"
+      ],
+      "category": "SETUP",
+      "status": "COMMUNITY",
+      "keywords": [
+        "ESC Telemetry"
+      ],
+      "author": "Hans Ouwehand",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/Hans/setup/esc telemetry/Nexus_X_XR-Vantac_007/Hobbywing_V4-telemetry.txt",
+      "hash": "b870620b1695f9f9ecb3abc2e259902166e0aeaa26b6bded2d0673ed0b50ba64",
+      "title": "Hobbywing V4 telemetry setup",
+      "firmware_version": [
+        "4.5",
+        "4.6"
+      ],
+      "board_name": [
+        "VANTAC_RF007",
+        "NEXUS_X",
+        "NEXUS_XR",
+        "GOOSKY_F701"
+      ],
+      "category": "SETUP",
+      "status": "COMMUNITY",
+      "keywords": [
+        "ESC Telemetry"
+      ],
+      "author": "Hans Ouwehand",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/Hans/setup/esc telemetry/Nexus_X_XR-Vantac_007/Hobbywing_V5-telemetry.txt",
+      "hash": "5678afd152c8d66a0bcb59b9eaffc4b4834f54d17e388b7b81277d63ba32c2f2",
+      "title": "Hobbywing V5 telemetry setup",
+      "firmware_version": [
+        "4.5",
+        "4.6"
+      ],
+      "board_name": [
+        "VANTAC_RF007",
+        "NEXUS_X",
+        "NEXUS_XR",
+        "GOOSKY_F701"
+      ],
+      "category": "SETUP",
+      "status": "COMMUNITY",
+      "keywords": [
+        "ESC Telemetry"
+      ],
+      "author": "Hans Ouwehand",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/Hans/setup/esc telemetry/Nexus_X_XR-Vantac_007/Scorpion-telemetry.txt",
+      "hash": "85ac2b55e266051640cb6565213494cad4c10a5c73692c93585959afb8b8f15f",
+      "title": "Scorpion telemetry setup",
+      "firmware_version": [
+        "4.5",
+        "4.6"
+      ],
+      "board_name": [
+        "VANTAC_RF007",
+        "NEXUS_X",
+        "NEXUS_XR",
+        "GOOSKY_F701"
+      ],
+      "category": "SETUP",
+      "status": "COMMUNITY",
+      "keywords": [
+        "ESC Telemetry"
+      ],
+      "author": "Hans Ouwehand",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/Hans/setup/esc telemetry/Nexus_X_XR-Vantac_007/XDfly-telemetry.txt",
+      "hash": "11863b2f50557a3ccf77f15cc2428eef1d5bca9f5298520015fb81c447ce41f0",
+      "title": "Xdfly telemetry setup",
+      "firmware_version": [
+        "4.5",
+        "4.6"
+      ],
+      "board_name": [
+        "VANTAC_RF007",
+        "NEXUS_X",
+        "NEXUS_XR",
+        "GOOSKY_F701"
+      ],
+      "category": "SETUP",
+      "status": "COMMUNITY",
+      "keywords": [
+        "ESC Telemetry",
+        "XDfly"
+      ],
+      "author": "Hans Ouwehand",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/Hans/setup/motorized-tail/Flydragon-pro-V2.txt",
+      "hash": "3703d490b83bbfd639205743cc90d0d9584a9a7252351c68a90393c4b44fe6a7",
+      "title": "Set parameters motorized tail",
+      "firmware_version": [
+        "4.5",
+        "4.6"
+      ],
+      "board_name": [
+        "FLYDRAGON_PRO6000",
+        "FLYDRAGON_PRO42688",
+        "FLYDRAGON_V2",
+        "FLYDRAGON_V2_2"
+      ],
+      "category": "SETUP",
+      "status": "COMMUNITY",
+      "keywords": [
+        "Tail",
+        "Setup",
+        "Motorized tail"
+      ],
+      "author": "Hans Ouwehand",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/Hans/setup/motorized-tail/GOOSKY_F701.txt",
+      "hash": "a973461d7686d4517990490754d1efd152ed5dfe41a9776fbad0b00d1fd6b4a6",
+      "title": "Set parameters motorized tail",
+      "firmware_version": [
+        "4.5",
+        "4.6"
+      ],
+      "board_name": [
+        "GOOSKY_F701"
+      ],
+      "category": "SETUP",
+      "status": "OFFICIAL",
+      "keywords": [
+        "Tail",
+        "Setup",
+        "Motorized tail"
+      ],
+      "author": "Paul Lesogor",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/Hans/setup/motorized-tail/Nexus_F7.txt",
+      "hash": "978edb0d0e0a0f2f7b4feef1822b40468dfb6aa522f407c27caa053dc56e7ae1",
+      "title": "Set parameters motorized tail",
+      "firmware_version": [
+        "4.5",
+        "4.6"
+      ],
+      "board_name": [
+        "NEXUS_F7"
+      ],
+      "category": "SETUP",
+      "status": "COMMUNITY",
+      "keywords": [
+        "Tail",
+        "Setup",
+        "Motorized tail"
+      ],
+      "author": "Hans Ouwehand",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/Hans/setup/motorized-tail/Vantac_RF007_Nexus-X-XR.txt",
+      "hash": "7bdafbebbb2c490090f136d2040d800baa6aceef38846cd98a8d834dc7d9248c",
+      "title": "Set parameters motorized tail",
+      "firmware_version": [
+        "4.5",
+        "4.6"
+      ],
+      "board_name": [
+        "VANTAC_RF007",
+        "NEXUS_XR",
+        "NEXUS_X"
+      ],
+      "category": "SETUP",
+      "status": "OFFICIAL",
+      "keywords": [
+        "Tail",
+        "Setup",
+        "Motorized tail"
+      ],
+      "author": "Hans Ouwehand",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/Hans/setup/RC-smoothing.txt",
+      "hash": "9eb75c3937365a7c3672a40a9fd6567c6cd9529ffaecc7797ff4f5e8d61cc880",
+      "title": "Input Smoothing & Rate Response Preset  (Movie Butter V2)",
+      "firmware_version": [
+        "4.5",
+        "4.6"
+      ],
+      "category": "SETUP",
+      "status": "COMMUNITY",
+      "keywords": [
+        "RC smoothing"
+      ],
+      "author": "Archie RC",
+      "priority": 0,
+      "force_options_review": true
+    },
+    {
+      "fullPath": "presets/Hans/setup/Telemetry-sensors-Ethos.txt",
+      "hash": "e4612debf0eaca4d1b8282f93601c48a759dc7cd5e053b30f83e242943307de0",
+      "title": "Set telemetry sensors for RFsuite on Ethos",
+      "firmware_version": [
+        "4.5",
+        "4.6"
+      ],
+      "category": "SETUP",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "Telemetry",
+        "Ethos"
+      ],
+      "author": "Hans Ouwehand",
+      "priority": 0
+    },
+    {
       "fullPath": "presets/Hans/tuning/700-default-tune.txt",
       "hash": "3d3a7d5e881479da608191adbcd655d15b8a0d56b9a1732bbb5df5a0858ee697",
       "title": "700 default tune",
@@ -526,7 +1079,7 @@
     },
     {
       "fullPath": "presets/Rotorflight/setup/Vantac.txt",
-      "hash": "eb72cf125fa246a8e609b830d2215d2cbb49dafcecd9a629580befead5397c97",
+      "hash": "add38f605cd8f1bf131c543d013a4052bd578119f49cbf127e22346b8465578f",
       "title": "Stratos 200 setup and tune (4S)",
       "firmware_version": [
         "4.6"
