@@ -111,7 +111,7 @@
 #$ OPTION_GROUP END
 
 #$ OPTION_GROUP BEGIN: (EXCLUSIVE) Ethos required telemetry sensors
-    #$ OPTION BEGIN (CHECKED): RFsuite
+    #$ OPTION BEGIN (CHECKED): RF2 dashboards (Shmuely)
     set telemetry_sensors = 1,96,3,244,5,95,8,99,90,43,60,93,91,15,1,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
     #$ OPTION END
 #$ OPTION_GROUP END
