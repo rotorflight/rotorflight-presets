@@ -167,7 +167,7 @@
 
 
 #$ OPTION_GROUP BEGIN: Profiles
-    #$ OPTION BEGIN (CHECKED): Profile 1 4200 rpm
+    #$ OPTION BEGIN (CHECKED): P1 4200 rpm
     profile 0
     # profile 0
     set profile_name = P1
@@ -274,7 +274,7 @@
     set gov_dyn_min_throttle = 20
     #$ OPTION END
 
-    #$ OPTION BEGIN (CHECKED): Profile 2 5600 rpm
+    #$ OPTION BEGIN (CHECKED): P2 5000 rpm
     profile 1
     # profile 1
     set profile_name = P2
@@ -381,7 +381,7 @@
     set gov_dyn_min_throttle = 20
     #$ OPTION END
 
-    #$ OPTION BEGIN (CHECKED): Profile 3 5000 rpm
+    #$ OPTION BEGIN (CHECKED): P3 5600 rpm
     profile 2
     # profile 2
     set profile_name = P3
@@ -597,4 +597,4 @@
     set yaw_dynamic_deadband_filter = 60
     set yaw_dynamic_deadband_cutoff = 50
     #$ OPTION END
-#$ OPTION_GROUP END  
+#$ OPTION_GROUP END
