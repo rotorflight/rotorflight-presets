@@ -1,10 +1,10 @@
 #$ TITLE: Stratos 200 setup and tune (4S)
 
 #$ FIRMWARE_VERSION: 4.6
-#$ BOARD_NAME: NEXUS_XR
+#$ BOARD_NAME: GOOSKY_F701
 
 #$ CATEGORY: SETUP
-#$ STATUS: OFFICIAL
+#$ STATUS: EXPERIMENTAL
 #$ KEYWORDS: Stratos 200
 #$ AUTHOR: Rotorflight
 #$ DESCRIPTION: Preset for the Xlpower stratos 200. It can be used to fully setup your stratos 200 and used with the tune developed by ArchieRC and HAQ. 
@@ -26,7 +26,7 @@
     defaults nosave
     # resources
     resource SERVO 4 NONE
-    resource MOTOR 2 A15
+    resource MOTOR 2 A09
 
     # feature
     feature TELEMETRY

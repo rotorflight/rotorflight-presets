@@ -1040,17 +1040,17 @@
       "force_options_review": true
     },
     {
-      "fullPath": "presets/Rotorflight/setup/Nexus-F7.txt",
-      "hash": "24623b4c601bff11331a1e362b338613ed9ff4b4efc97725e5fbdc6e117d932e",
+      "fullPath": "presets/Rotorflight/setup/Goosky-F701.txt",
+      "hash": "481f6e3e83ebf765a4157a5ac378527c07be2be95876e9962f61588afa9ca93a",
       "title": "Stratos 200 setup and tune (4S)",
       "firmware_version": [
         "4.6"
       ],
       "board_name": [
-        "NEXUS_F7"
+        "GOOSKY_F701"
       ],
       "category": "SETUP",
-      "status": "OFFICIAL",
+      "status": "EXPERIMENTAL",
       "keywords": [
         "Stratos 200"
       ],
@@ -1059,14 +1059,14 @@
       "force_options_review": true
     },
     {
-      "fullPath": "presets/Rotorflight/setup/Nexus-Goosky.txt",
-      "hash": "c48deff0d3af4b84fdceaf4c5986511fe6385278a5ac009140d183ddc4f6cb95",
+      "fullPath": "presets/Rotorflight/setup/Nexus-F7.txt",
+      "hash": "24623b4c601bff11331a1e362b338613ed9ff4b4efc97725e5fbdc6e117d932e",
       "title": "Stratos 200 setup and tune (4S)",
       "firmware_version": [
         "4.6"
       ],
       "board_name": [
-        "NEXUS_XR"
+        "NEXUS_F7"
       ],
       "category": "SETUP",
       "status": "OFFICIAL",
