@@ -18,11 +18,11 @@
 
 #$ OPTION_GROUP BEGIN: (EXCLUSIVE) Port
     #$ OPTION BEGIN (UNCHECKED): Aux
-    resource SERIAL_TX 1 NONE
+    resource SERIAL_TX 4 NONE
     resource SERVO 5 A00
     #$ OPTION END
     #$ OPTION BEGIN (UNCHECKED): SBUS
-    resource SERIAL_RX 1 NONE
+    resource SERIAL_RX 2 NONE
     resource SERVO 5 A03
     #$ OPTION END
 #$ OPTION_GROUP END
